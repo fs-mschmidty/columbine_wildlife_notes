@@ -1,0 +1,204 @@
+---
+title: FS Veg vs Landfire, and FIA excercise.
+date: 2025-07-01
+tags: []
+format:
+  commonmark:
+    df-print: kable
+    variant: +yaml_metadata_block
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+---
+
+The Forest Service developed a polygon based system called FSVeg.  It is an amazing product.  But it relies heavily on by-hand interpretation of aerial imagery.  Raster based products that are remotely sensed with computer models have since been developed such and LandFire. A debate about what to use has occured on the San Juan National Forest.  I've been a proponent of LandFire.  But many are skepticle.  Almost all current products rely on FSVeg.
+
+This grey paper will use FIA data to evaluate both FSVeg and Landfire for species occurrence and cover metrics.
+
+```{r}
+library(sf)
+library(terra)
+library(tidyterra)
+library(sjnftools)
+library(tidyverse)
+```
+
+```{r}
+fs_veg_dsn <- "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\fs_veg_exports\\FSVegSpatial.gdb"
+fs_veg_poly <- st_read(
+  dsn = fs_veg_dsn,
+  "NRIS_VegPoly",
+  quiet = TRUE
+)
+veg_data <- st_read(
+  dsn = fs_veg_dsn,
+  "NRIS_VegPolyLocalCalcs",
+  quiet = TRUE
+) |>
+  as_tibble()
+
+landfire_evt <- rast(
+  "D:\\GIS_Data\\Landfire\\LF2023\\LF2023_EVT_240_CONUS\\LF2023_EVT_240_CONUS\\Tif\\LC23_EVT_240.tif"
+)
+
+fia_ba_data <- st_read(
+  "C:\\Users\\MichaelSchmidt2\\OneDrive - USDA\\code\\r\\test\\fia\\output\\fia_calced_sjnf_ba_by_species_by_plot.gpkg",
+  quiet = TRUE
+) |>
+  st_transform(st_crs(fs_veg_poly))
+
+fia_points <- fia_ba_data |>
+  select(CN) |>
+  count(CN) |>
+  select(-n)
+
+fia_evt <- fia_points |>
+  st_transform(crs(landfire_evt))
+
+evt_extract <- terra::extract(landfire_evt, fia_evt) |>
+  select(-ID)
+
+activeCat(landfire_evt) <- "EVT_GP_N"
+evt_gp_n_extract <- terra::extract(landfire_evt, fia_evt) |>
+  select(-ID)
+
+lf_cc <- rast(
+  "D:\\GIS_Data\\Landfire\\LF2022_CC_230_CONUS\\LF2022_CC_230_CONUS\\Tif\\LC22_CC_230.tif"
+)
+
+fia_extract_cc <- terra::extract(lf_cc, fia_evt) |>
+  select(-ID)
+
+nlcd_cc <- rast(
+  "D:\\GIS_Data\\NLCD\\nlcd_tcc_CONUS_2021_v2021-4\\nlcd_tcc_conus_2021_v2021-4.tif"
+)
+
+names(nlcd_cc) <- "nlcd_cc"
+
+fia_extract_nlcd_cc <- terra::extract(nlcd_cc, fia_evt) |>
+  select(-ID)
+
+evt_w_fia <- fia_points |>
+  bind_cols(
+    evt_extract,
+    evt_gp_n_extract,
+    fia_extract_cc,
+    fia_extract_nlcd_cc
+  ) |>
+  st_drop_geometry() |>
+  as_tibble()
+
+
+fia_fs_veg <- fia_points |>
+  st_intersection(select(fs_veg_poly, SPATIAL_ID)) |>
+  left_join(veg_data, by = "SPATIAL_ID") |>
+  st_drop_geometry() |>
+  as_tibble() |>
+  mutate(
+    local_type_name = case_when(
+      LOCAL_TYPE == "ALP" ~ "Alpine",
+      LOCAL_TYPE == "NRS" ~ "Barren/Rock/Soil",
+      LOCAL_TYPE == "RIP" ~ "Riparian",
+      LOCAL_TYPE == "TAA" ~ "Aspen (Pure Stand)",
+      LOCAL_TYPE == "TAA-SW" ~ "Aspen w Conifer",
+      LOCAL_TYPE == "TLP" ~ "Lodgepole Pine",
+      LOCAL_TYPE == "TMC-CM" ~ "Cool-moist Mixed Conifer",
+      LOCAL_TYPE == "TMC-WD" ~ "Warm-dry Mixed Conifer",
+      LOCAL_TYPE == "TPJ" ~ "Pinyon-juniper",
+      LOCAL_TYPE == "TPP-PP" ~ "Ponderosa pine",
+      LOCAL_TYPE == "TSF" ~ "Spruce-fir",
+      LOCAL_TYPE == "UP_SWE" ~ "Upland Willow",
+      LOCAL_TYPE == "WAT" ~ "Water",
+      LOCAL_TYPE == "MT_SHR" ~ "Mountain Shrublands",
+      LOCAL_TYPE == "MT_GRA" ~ "Mountain Grasslands",
+      LOCAL_TYPE == "SSA" ~ "Sagebrush",
+      TRUE ~ LOCAL_TYPE
+    )
+  )
+
+fia_data_total_ba <- fia_ba_data |>
+  select(CN, species_ba, common_name) |>
+  filter(common_name != "Gambel oak") |>
+  pivot_wider(names_from = common_name, values_from = species_ba) |>
+  mutate(total_ba = rowSums(across(`Utah juniper`:`lodgepole pine`), na.rm = T))
+
+cover_join <- fia_data_total_ba |>
+  select(CN, total_ba) |>
+  left_join(select(fia_fs_veg, CN, TREE_COVER_PCT)) |>
+  left_join(evt_w_fia, by = "CN") |>
+  mutate(
+    TREE_COVER_PCT = as.numeric(TREE_COVER_PCT),
+    nlcd_cc = as.numeric(nlcd_cc),
+    first_num = as.numeric(str_extract(CC_PERCENT, "\\b\\d{2}\\b")),
+    second_num = as.numeric(sapply(
+      str_extract_all(CC_PERCENT, "\\d+"),
+      function(x) x[2]
+    )),
+    lf_cc_avg = (first_num + second_num) / 2,
+    lf_cc_avg = ifelse(is.na(lf_cc_avg), 0, lf_cc_avg)
+  ) |>
+  select(-first_num, -second_num)
+```
+
+## Is basal area correlated to canopy cover
+
+Here we look at if canopy cover of FSVeg, NLCD and Landfire correlate to FIA basal area.  In short they really don't. Basal area probably isn't a great metric to test against canopy cover.
+
+It is interesting to see that the canopy cover metrics do correlate to one another a bit and it is good to see that landfire and nlcd correlate to one another.
+
+```{r }
+
+cover_join |>
+  as_tibble() |>
+  select(
+    fia_ba = total_ba,
+    fs_veg_cc = TREE_COVER_PCT,
+    nlcd_cc,
+    lf_cc_avg
+  ) |>
+  cor() |>
+  knitr::kable()
+```
+
+
+
+## Dominant Forest Type
+
+Here we check the tree species with the greatest basal area in FIA to see if the dominant veg type matches LOCAL_TYPE in FS_VEG and EVT_GP_N in Landfire. Honestly I'm fairly surprised at how well these match given that the FIA points are just points and both FSVeg and LandFire data are averages of larger areas.
+
+```{r}
+fia_data_dominant_tree_sp <- fia_ba_data |>
+  group_by(CN) |>
+  filter(!is.na(common_name)) |>
+  arrange(desc(species_ba)) |>
+  slice(1) |>
+  ungroup() |>
+  select(CN, species_ba, common_name) |>
+  st_drop_geometry() |>
+  as_tibble()
+
+type_check <- fia_data_dominant_tree_sp |>
+  left_join(select(fia_fs_veg, CN, local_type_name), by = "CN") |>
+  left_join(select(evt_w_fia, CN, EVT_NAME, EVT_GP_N), by = "CN") |>
+  select(
+    fia_ba = species_ba,
+    fia_cn = common_name,
+    fsveg = local_type_name,
+    lf_evg_gp = EVT_GP_N
+  )
+
+sample_n(type_check, 20)
+```
+
+## Conclusion
+
+I think this needs further investigation but for now I have to say I'm at least a little more supportive of FSVeg.  I'm not sure if I want to use it but I'm at least a bit more supportive of it than I was prior to these checks.
+
+
+
+
+
+
+

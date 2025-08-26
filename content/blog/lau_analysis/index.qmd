@@ -1,0 +1,121 @@
+---
+title: Lynx Lau Analysis
+date: 2025-07-03
+format:
+  commonmark:
+    df-print: kable
+    variant: +yaml_metadata_block
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+bibliography: references.bib
+---
+
+```{r}
+library(terra)
+library(sf)
+library(tidyverse)
+```
+
+The San Juan National Forest just redrew it's Lynx Analysis Units to align with newly proposed critical habitat by the Fish and Wildlife Service and new habitat mapping by @squiresAnthropogenicallyProtectedNaturally2024. Here is a short analysis of the new mapping compared to the old mapping.
+
+## New LAUs with Squires et. al. Habitat Mapping
+```{r}
+lau <- st_read(
+  "T:\\FS\\Reference\\GeoTool\\r02_sjnf\\Toolbox\\Lynx\\LynxHabitat.gdb",
+  "LAU_RO_2025",
+  quiet = T
+)
+```
+
+
+```{r}
+#| cache: true
+lynx_hab_cat <- rast(
+  "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\Lynx\\FINAL_MODELS_ CO_Dec2024\\CO_model_categoricalFig3.tif"
+)
+
+lau_rast <- rasterize(lau, lynx_hab_cat, "LAU", wopt = list(names = "lau"))
+
+hab_cat_per_lau <- crosstab(c(lau_rast, lynx_hab_cat))
+
+freq_unlikely <- hab_cat_per_lau |>
+  as_tibble() |>
+  mutate(
+    CO_model_categoricalFig3 = case_when(
+      CO_model_categoricalFig3 == 1 ~ "Unlikely",
+      CO_model_categoricalFig3 == 2 ~ "Likely",
+      CO_model_categoricalFig3 == 3 ~ "Core",
+    )
+  ) |>
+  pivot_wider(names_from = CO_model_categoricalFig3, values_from = n) |>
+  mutate(
+    perc_unlikely = (Unlikely / (Unlikely + Likely + Core)) |> round(2),
+    Unlikely = (Unlikely * 120 * 120 * 0.000247105) |> round(1),
+    Likely = (Likely * 120 * 120 * 0.000247105) |> round(1),
+    Core = (Core * 120 * 120 * 0.000247105) |> round(1)
+  )
+
+freq_unlikely |>
+  knitr::kable()
+```
+
+
+
+The vast majority of LAUs on the San Juan have No Lynx habitat as modeled by @squiresAnthropogenicallyProtectedNaturally2024.
+
+## Old habitat mapping
+```{r}
+#| cache: true
+
+lynx_hab_old <- st_read(
+  "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\ColumbineRangerDistrict\\LynxHabitat_Checkout\\lynx_habitat.shp",
+  quiet = T
+)
+lynx_hab_old_suitable <- lynx_hab_old |>
+  janitor::clean_names() |>
+  mutate(
+    habitat_cat = case_when(
+      lynxhabita %in% c("PU", "SU") ~ "Unsuitable",
+      lynxhabita %in% c("PS", "SS") ~ "Suitable",
+      lynxhabita == "ALP" ~ "Alpine"
+    )
+  )
+
+old_lynx_hab_cl <- select(lynx_hab_old_suitable, habitat_cat) |>
+  count(habitat_cat)
+
+lau_total_acres <- lau |>
+  janitor::clean_names() |>
+  select(lau, total_acres = acres) |>
+  st_drop_geometry()
+
+lau_old_hab_int <- lau |>
+  janitor::clean_names() |>
+  st_intersection(old_lynx_hab_cl)
+
+lau_old_hab_int %>%
+  mutate(acres = st_area(.) |> as.numeric() * 0.000247105) |>
+  as_tibble() |>
+  group_by(lau, habitat_cat) |>
+  summarize(acres = sum(acres)) |>
+  ungroup() |>
+  pivot_wider(names_from = habitat_cat, values_from = acres) |>
+  left_join(lau_total_acres, by = "lau") |>
+  mutate(
+    perc_not_hab_all_lau = (total_acres - Suitable) / total_acres,
+    perc_hab = Suitable / (Suitable + Unsuitable)
+  ) |>
+  mutate_if(is.numeric, round, 2)
+```
+
+
+```{r}
+fs_veg_dsn <- "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\fs_veg_exports\\FSVegSpatial.gdb"
+```
+
+## References
+
+

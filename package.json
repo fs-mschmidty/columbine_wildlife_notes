@@ -1,7 +1,7 @@
 {
-	"name": "eleventy-base-blog",
+	"name": "Columbine Wildlife Notes",
 	"version": "9.0.0",
-	"description": "A starter repository for a blog web site using the Eleventy site generator.",
+	"description": "Michael Schmidt's Notes for the Columbine RD",
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
@@ -11,27 +11,24 @@
 		"start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet",
 		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
 		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
-		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/columbine_wildlife_notes/"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/11ty/eleventy-base-blog.git"
+		"url": "git://github.com/fs-mschmidty/columbine_rd_notes.git"
 	},
 	"author": {
-		"name": "Zach Leatherman",
-		"email": "zachleatherman@gmail.com",
-		"url": "https://zachleat.com/"
+		"name": "Michael Schmidt",
+		"email": "michael.schmidt4@usda.gov",
+		"url": "https://github.com/fs-mschmidty/"
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">=18"
-	},
-	"funding": {
-		"type": "opencollective",
-		"url": "https://opencollective.com/11ty"
+		"node": ">=18":
 	},
 	"bugs": {
-		"url": "https://github.com/11ty/eleventy-base-blog/issues"
+		"url": "https://github.com/fs-mschmidty/columbine_rd_notes/issues"
 	},
 	"homepage": "https://github.com/11ty/eleventy-base-blog#readme",
 	"devDependencies": {
