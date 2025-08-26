@@ -3,27 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Columbine Wildlife Notes</title>
+		<title>Pinus ponderosa var. brachyptera, P. p. var. scopulorum, southwestern ponderosa pine, Rocky Mountain ponderosa pine</title>
 		<meta name="description" content="These are Mike Schmidt&#39;s notes for the Columbine Ranger District.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Columbine Wildlife Notes">
 		
-		<style>/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -344,7 +494,7 @@ header {
 				<ul class="nav">
 					<li class="nav-item"><a href="/columbine_wildlife_notes/">Home</a></li>
 					<li class="nav-item"><a href="/columbine_wildlife_notes/blog/">Archive</a></li>
-					<li class="nav-item"><a href="/columbine_wildlife_notes/about/" aria-current="page">About</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/about/">About</a></li>
 					<li class="nav-item"><a href="/columbine_wildlife_notes/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
@@ -352,13 +502,31 @@ header {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
+				
+<h1 id="pinus-ponderosa-var-brachyptera-p-p-var-scopulorum-southwestern-ponderosa-pine-rocky-mountain-ponderosa-pine">Pinus ponderosa var. brachyptera, P. p. var. scopulorum, southwestern ponderosa pine, Rocky Mountain ponderosa pine</h1>
 
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2025-08-26">26 August 2025</time></li>
+	<li><a href="/columbine_wildlife_notes/tags/ponderosa-pine/" class="post-tag">Ponderosa Pine</a>, </li>
+	<li><a href="/columbine_wildlife_notes/tags/ecology/" class="post-tag">Ecology</a></li>
+</ul>
 
-<h1 id="about">About</h1>
-<p>I am a person that writes stuff.</p>
+<p>Article available on the <a href="https://research.fs.usda.gov/feis/species-reviews/pinpons">Fire Effects Information System</a></p>
+<h2 id="large-stand-replacing-fires-always-occurred">Large Stand Replacing Fires Always Occurred.</h2>
+<blockquote>
+<p><em>&quot;It may be helpful for public education programs on fire hazard reduction to emphasize that although frequent surface fires were most common in ponderosa pine stands, mixed and stand-replacement fires did occur in prehistoric times, and that during years of high fire hazard, stand-replacement fires may occur again despite fuels reduction programs&quot;</em></p>
+</blockquote>
+<p>It seems that while stand replacing fires were uncommon, they still occurred, and despite our best efforts at fuels mitigation they will continue to occur.</p>
+<h2 id="fires-occurred-in-the-late-summer-and-early-fall">Fires Occurred in the Late Summer and Early Fall</h2>
+<h2 id="structure">Structure</h2>
+<blockquote>
+<p><em>&quot;Stands were historically open with varied age class distributions... Cooper [75] found that on the Fort Apache Reservation of east-central Arizona, where frequent prescribed burning is practiced, ponderosa pine grew in a mosaic of small (about 0.2-acre (0.08 ha)), even-aged groups that were maintained by fire. Trees were widely and randomly spaced. In contrast, structure in an unburned virgin stand on the Fort Valley Experimental Forest was uneven-aged with trees in small, uneven-aged groups. Pole-sized trees predominated, with scattered presettlement trees 14.5 to 41 inches (37-104 cm) DBH, and dense thickets of saplings [77]. (The Fire Ecology section of this report compares of pre- and postsettlement structure of this stand.) Laven and others [198] found presettlement stands on the central Colorado Front Range tended to have widely spaced, uneven-aged trees. Grouping patterns were not evident [77].&quot;</em></p>
+</blockquote>
+<h2 id="fire-return-interval">Fire Return Interval</h2>
+<p>Fire return interval averages ~21 years. Large fire occurrence occurred every ~41 years.</p>
 
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/">Notes on Goshawk Survey Protocol</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -367,7 +535,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
 		</footer>
 
-		<!-- This page `/about/` was built on 2025-08-26T18:10:21.816Z -->
+		<!-- This page `/blog/lit_notes/2003_pinus_ponderosa_var_brachyptera_southwestern_ponderosa_pine_rocky_mountain/` was built on 2025-08-26T18:10:21.817Z -->
 		<script type="module" src="/columbine_wildlife_notes/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
