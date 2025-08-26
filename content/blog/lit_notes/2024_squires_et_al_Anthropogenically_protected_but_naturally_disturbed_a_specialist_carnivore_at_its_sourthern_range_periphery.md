@@ -10,7 +10,7 @@ Species distribution models were developed using gps collar data collected in 20
 
 Seventeen variables were used to make the model. Topographic, vegetation and environmental variables were assessed. The most important variables in the model were precip as snow, relative humidity, Soil PH, Summer Precip, Topographic Position Index, Temp Coldest Month. The rest were relatively unimportant. PH was used to assess wetter conditions of subalpine forests. Lower PH is associated with wetter conditions.
 
-![Variable importance for the ensemble model.](images/2024_squires_et_al_var_imp.png)
+![Variable importance for the ensemble model.](/images/2024_squires_et_al_var_imp.png)
 
 Model was built with GPS collar data collected from 18 animals captured in the Vail area and the San Juan Mountains. The model was evaluated using camera trap data, snow track surveys, and Den locations. Thirty percent of the GPS data was used to build the model and 70% of the data was used to validate the model.
 
