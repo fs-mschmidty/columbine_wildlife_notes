@@ -25,7 +25,7 @@
 	},
 	"license": "MIT",
 	"engines": {
-		"node": ">=18":
+		"node": ">=18"
 	},
 	"bugs": {
 		"url": "https://github.com/fs-mschmidty/columbine_rd_notes/issues"
