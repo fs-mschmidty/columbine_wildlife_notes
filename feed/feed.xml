@@ -31,6 +31,30 @@
 </content>
   </entry>
   <entry>
+    <title>Blog Post for the Day</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/" />
+    <updated>2025-08-26T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/</id>
+    <content type="html">&lt;h2 id=&quot;lifetime-learning-day&quot;&gt;Lifetime Learning Day&lt;/h2&gt;
+&lt;p&gt;learning &lt;strong&gt;all&lt;/strong&gt; of the things while also mapping black swifts (&lt;em&gt;cyssomething nigris&lt;/em&gt;)&lt;/p&gt;
+&lt;p&gt;fun things today&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;lunch&lt;/li&gt;
+&lt;li&gt;snacks&lt;/li&gt;
+&lt;li&gt;gis access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;best things today&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;lunch&lt;/li&gt;
+&lt;li&gt;snacks&lt;/li&gt;
+&lt;li&gt;gis access&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;currently struggling to figure out how to get &lt;a href=&quot;https://www.gbif.org/occurrence/search?occurrence_status=present&quot;&gt;gbif data&lt;/a&gt; downloaded&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/cLaDsrnpR0-392.avif 392w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/cLaDsrnpR0-392.webp 392w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/cLaDsrnpR0-392.jpeg&quot; alt=&quot;&quot; width=&quot;392&quot; height=&quot;301&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;![goshawk inat photo](&amp;quot;_images/Screenshot 2025-07-29 095508.png&amp;quot;)&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Notes on Goshawk Survey Protocol</title>
     <link href="https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/" />
     <updated>2025-07-14T00:00:00Z</updated>
