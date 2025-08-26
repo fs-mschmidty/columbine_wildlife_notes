@@ -31,6 +31,23 @@
 </content>
   </entry>
   <entry>
+    <title>Title</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/kassia_note/" />
+    <updated>2025-08-26T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/kassia_note/</id>
+    <content type="html">&lt;h2 id=&quot;header-level-two&quot;&gt;Header Level Two&lt;/h2&gt;
+&lt;p&gt;Write a paragraph&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;blah blah&lt;/li&gt;
+&lt;li&gt;blah blah 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;bold item&lt;/strong&gt;
+&lt;em&gt;italics item&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://earth.google.com/web/@37.80247651,-107.7579656,3062.33799632a,1003.09303319d,35y,0h,0t,0r/data=CgRCAggBQgIIAEoICML31uIGEAA&quot;&gt;Google Earth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/kassia_note/BkXW9dUfn9-474.avif 474w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/kassia_note/BkXW9dUfn9-474.webp 474w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/kassia_note/BkXW9dUfn9-474.jpeg&quot; alt=&quot;Image&quot; width=&quot;474&quot; height=&quot;255&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Blog Post for the Day</title>
     <link href="https://example.com/columbine_wildlife_notes/blog/Kennasblogpost/" />
     <updated>2025-08-26T00:00:00Z</updated>
