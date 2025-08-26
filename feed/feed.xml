@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Columbine Wildlife Notes</title>
+  <subtitle>This is a longer description about your blog.</subtitle>
+  <link href="https://example.com/columbine_wildlife_notes/feed/feed.xml" rel="self" />
+  <link href="https://example.com/columbine_wildlife_notes/" />
+  <updated>2025-07-14T00:00:00Z</updated>
+  <id>https://example.com/columbine_wildlife_notes/</id>
+  <author>
+    <name>Michael Schmidt</name>
+  </author>
+  <entry>
+    <title>Notes on Goshawk Survey Protocol</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/" />
+    <updated>2025-07-14T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/</id>
+    <content type="html">&lt;p&gt;This document is notes on Northern Goshawks (&lt;em&gt;Accipiter gentilis&lt;/em&gt;)
+generally with specific information pertaining to Goshawks on the
+Columbine District of the San Juan National Forest.&lt;/p&gt;
+&lt;h2 id=&quot;why-are-goshawks-important-to-the-san-juan&quot;&gt;Why are Goshawks Important to the San Juan?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Goshawks are declining accross North America.&lt;/strong&gt;
+(&lt;a href=&quot;https://www.rpi-project.org/species-conservation-northern-goshawk-accipiter-gentilis/&quot;&gt;1&lt;/a&gt;)
+Migratory monitoring locations accross the Unites States show a 46%
+decline in detections from 2009 to 2019. eBird trend estimates show
+declines accross their range. eBird data has does not have enough data
+to determine trend in most of Region 2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goshawks require relatively dense forest stands for nesting.&lt;/strong&gt;
+Activities that reduce nest stand density decrease potential nest
+stand quality. It has been shown that nest stands that have been
+reduced in tree density show a significan decrease in nest site
+fidelity.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Goshawks show high Nest Site Fidelity.&lt;/strong&gt; Goshawks return to the same
+territory year after year, often for life, and nest stands can be used
+by multiple generations.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;We don’t know that much about Goshawks on the San Juan.&lt;/strong&gt; Given the
+above, we don’t know that much about Goshawks. We don’t know how many
+nests we have, we don’t know how many nests are active and we don’t
+know how our activities are affecting goshawks. Dolores RD has done
+the most to determine their status. But staff time drastically limits
+how much we know about the species and its status.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But this leads me to my next issue. I’m not sure we will ever know as
+much as we want to because surveys are time intensive, hard to time
+phenologically and because goshawks don’t nest every year.&lt;/p&gt;
+&lt;h2 id=&quot;goshawk-nest-survey-methodology-summary&quot;&gt;Goshawk Nest Survey Methodology Summary&lt;/h2&gt;
+&lt;p&gt;There are four methods to find goshawk nest sites:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Dawn accustical surveys&lt;/strong&gt; - During early breeding (March 15th to
+April 28th - courtship, prior to female laying eggs) establish
+listening stations. Helpful if you know if it is good habitat or you
+are near a nest.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“&lt;em&gt;single-visit detection rates obtained with this method are about 97
+percent at goshawk sites with active nests, 73 percent at sites with
+occupied nonbreeding status, and 43 percent at unoccupied historical
+nest stands (table 3.1). If survey objectives require detection of
+sites with nonbreeding adults, then two visits are required to achieve
+detection rates greater than 90 percent.&lt;/em&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;strong&gt;Intensive Search Survey&lt;/strong&gt; - Closely spaced, 20m to 30m apart,
+surveys where surveyors look for Goshawk sign. Sign can be nests,
+feathers, whitewash or prey remnants. Broadcast call can be done
+coincidentally.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Broadcast Accoustical&lt;/strong&gt; - Broadcast call transects that are less
+than 250m apart, with call points 200m apart along a transect.
+Transects should be staggered 100m from one tranect to the another,
+so that call points better cover an area. Surveys should occur from
+June 1 to August 15. At each calling station, broadcast at 60
+degrees from the transect line for 10 seconds, then listen and watch
+for 30 seconds. Repeat this sequence two more times, rotating 120
+degrees from the last broadcast. During the nestling stage,
+broadcast the adult alarm call. During the late nestling and
+fledgling stages, broadcast the juvenile begging or wail call. This
+call is more likely to elicit responses from juvenile goshawks.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aerial Survey&lt;/strong&gt; - Survey froma plane or drone.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Intensive search and broadcast accoustical survey will typically be used
+the most.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;/ &lt;strong&gt;Table 3.2&lt;/strong&gt; from Woodbridge and Hargis, 2006&lt;/em&gt;&lt;/p&gt;
+&lt;table style=&quot;width:100%;&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;col style=&quot;width: 16%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Survey Type&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Timing&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Nest Status&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;1st Visit Succes&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;2nd Visit Success&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;3rd Visit Success&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Dawn accustical surveys&lt;/td&gt;
+&lt;td&gt;Local Dependent&lt;/td&gt;
+&lt;td&gt;Nesting&lt;/td&gt;
+&lt;td&gt;97%&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Occupied nonnnesting&lt;/td&gt;
+&lt;td&gt;73%&lt;/td&gt;
+&lt;td&gt;~90%&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Unoccupied Historical&lt;/td&gt;
+&lt;td&gt;43%&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Intensive Search Survey&lt;/td&gt;
+&lt;td&gt;late June through August&lt;/td&gt;
+&lt;td&gt;Nesting&lt;/td&gt;
+&lt;td&gt;97%&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Occupied nonnesting&lt;/td&gt;
+&lt;td&gt;74%&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;98%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Unoccupied Historical&lt;/td&gt;
+&lt;td&gt;43%&lt;/td&gt;
+&lt;td&gt;67%&lt;/td&gt;
+&lt;td&gt;81%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Broadcast Accoustical&lt;/td&gt;
+&lt;td&gt;June 1 to August 15&lt;/td&gt;
+&lt;td&gt;Nesting&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;94%&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Occupied nonnesting&lt;/td&gt;
+&lt;td&gt;64%&lt;/td&gt;
+&lt;td&gt;87%&lt;/td&gt;
+&lt;td&gt;96%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Unnoccupied Historical&lt;/td&gt;
+&lt;td&gt;36%&lt;/td&gt;
+&lt;td&gt;59%&lt;/td&gt;
+&lt;td&gt;73%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;goshawk-nest-survey-timing-in-relation-to-projects&quot;&gt;Goshawk Nest Survey Timing in Relation to Projects.&lt;/h2&gt;
+&lt;p&gt;Two survey methods will be used the most, Broadcast Accoustical and
+Intensive Search. These surveys should be conducted either the year
+before a project is conducted or the year the project is conducted prior
+to project implementation. In some cases surveys prior to one year
+before the project is implemented may be allowed if an effeciency is
+gained.&lt;/p&gt;
+&lt;h2 id=&quot;what-will-we-do-after-we-find-a-goshawk-nest&quot;&gt;What will we do after we find a Goshawk Nest&lt;/h2&gt;
+&lt;h3 id=&quot;definition-of-important-habitat-areas-renolds-et-al-1992&quot;&gt;Definition of Important habitat areas (Renolds et. al 1992)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Nest Areas (30 acres each)&lt;/strong&gt; - &lt;em&gt;“Three suitable nest areas should be
+maintained per home range. In addition, three replacement nest areas per
+home range should be in a development phase, using intermediate
+treatment and prescribed fire. Suitable areas may be lost because of
+insect epidemics, catastrophic fire, or other factors. Nest areas are
+typified by one or more stands of mature or old trees and dense forest
+canopies. No adverse management activities should occur at any time in
+suitable nest areas. Desired forest conditions for the nest stands and
+management recommendations for maintaining and developing nest stands.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Post Fledging-Family Areas (PFA) (420 acres)&lt;/strong&gt; - &lt;em&gt;“The PFA contains a
+variety of forest conditions and prey habitat attributes. Interspersed
+small openings, snags, downed logs, and woody debris are critical PFA
+attributes. To sustain the desired canopy cover, size of trees, and the
+specified portions of different forest ages within the PFA, regeneration
+of 10 percent of the PFA may be required every 20 years. Other
+management tools, such as prescribed fire and removing understory trees,
+are suggested for sustaining other critical elements of goshawk habitat
+(Table 2). Small openings in the forest are desired habitat for some
+prey species and are required for forest regeneration (Fig. 6). If
+forested openings are 1.0 acre or greater in Ponderosa pine and mixed
+species, then 3 to 6 large mature and/or reserve old trees per acre
+should be left in groups. If spruce-fir forest openings are 0.5 acres or
+greater, a group of 6 reserve trees are required per 0.5 acres. Reserve
+trees are not necessary in smaller openings; this component can be met
+in adjacent forested areas.. Ponderosa pine and other seral conifers can
+be planted, and, depending on forest type, aspen and oak regeneration
+are encouraged. Snags, downed logs, and woody debris should be present
+throughout the PFA. All management activities in the PFA should be
+limited to the period from October through February. Prescribed burning
+is the preferred method for management of woody debris. Thinning from
+below (removing understory trees) is preferred for maintaining desired
+forest structures, and a variable spacing of trees is preferred for
+developing groups of trees with interlocking crowns. Road densities
+should be minimized, and permanent skid trails should be used in lieu of
+permanent roads. Forage utilization should average 20 percent by weight
+and should not exceed 40 percent in any area to maintain grass and forb
+layer. Browse utilization should average 40 percent by weight (Table 2).
+These recommendations are designed to provide foods (leafy material,
+berries) and cover for goshawk prey.”&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Foraging Area (5,400 acres)&lt;/strong&gt; - &lt;em&gt;“Both the desired conditions and the
+management recommendations for the foraging area are similar to the PFA.
+The distribution and proportion of vegetative structural stages and the
+requirements for habitat attributes such as reserve trees, snags, and
+downed logs are the same as the PFA. Because the foraging area need not
+provide hiding cover for fledgling goshawks, a more open canopy is
+preferred – 40 percent in the mid-aged forests and 40 to 60 percent in
+the mature and old forests, depending on the forest type. Openings (up
+to 4 acres), for herbaceous and shrubby understory development and tree
+regeneration, are desired in ponderosa pine and mixed-species forests;
+smaller openings are desired in spruce-fir forests (Table 1). Specific
+management recommendations to obtain the desired conditions for the
+foraging area are identical to the PFA (Table 2).”&lt;/em&gt;”&lt;/p&gt;
+&lt;figure&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/6hj69XUcPf-773.avif 773w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/6hj69XUcPf-773.webp 773w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/6hj69XUcPf-773.png&quot; alt=&quot;“Table of Nest, Post Fledgling-Family Area and Foraging Area Data”&quot; width=&quot;773&quot; height=&quot;438&quot;&gt;&lt;/picture&gt;
+&lt;figcaption aria-hidden=&quot;true&quot;&gt;“Table of Nest, Post Fledgling-Family
+Area and Foraging Area Data”&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h2 id=&quot;document-excerpts&quot;&gt;Document Excerpts:&lt;/h2&gt;
+&lt;h3 id=&quot;forest-service-region-2-sensitive&quot;&gt;Forest Service Region 2 Sensitive&lt;/h3&gt;
+&lt;p&gt;The Northern Goshawk is the listed as sensitive in Forest Service Region
+2. &lt;a href=&quot;https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5253676.pdf&quot;&gt;Rationale for
+Listing&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Crocker-Bedford (1998) found that nest fidelity decreased
+significantly in harvested forests from that found in unharvested
+forests.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Some 90 percent of the species habitat in the Southern Rockies is
+found on National Forest System lands. Consequently, the landscape
+level management strategies of the Forest System has substantial
+potential for determining the future of this species within the
+ecosystems of R2.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the &lt;a href=&quot;https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5369460.pdf&quot;&gt;Sensitive Species listing
+Evalution&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Forests in the region vary dramatically in their goshawk survey
+techniques and locations that are surveyed. Some Forests like the
+Medicine Bow/Routt and Black Hills have a large timber program and
+conduct numerous goshawk surveys. Other Forests such as the White
+River and San Juan have a relatively small timber program and have
+conducted very limited goshawk surveys. This leads to very large
+discrepancies in the data between forests and habitat types. For
+example on the Brush Creek/Hayden District of the Med/Bow over 100
+nests have been documented mostly from transects used to clear timber
+sales. On the entire White River NF with more habitat acreage, only
+approximately 15-20 nests are known and the majority of those have
+been found in areas not officially surveyed, but were observations
+from the public or agency personnel&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The R2 Goshawk team (2) found that actual population trend data for
+goshawks is very limited within the region. The USFWS, (3) itself
+stated that the majority (75%) of reported territories analyzed for
+the status review were discovered in the last 10 years. The R2 goshawk
+team was not able to find any experts within the region that could
+supply population trend data. The team further suggested that nest
+monitoring and other protocols be undertaken region wide in order to
+begin the baseline information data gathering that could be used later
+for population trend projections.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Kennedy (7) after a comprehensive review of peer-reviewed research
+concluded that there is no strong evidence to indicate that goshawk
+populations are declining, increasing or stable. She also stated
+that 1) either the goshawk is not declining or 2) current sampling
+techniques are insufficient to detect population trends.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the Southern Rockies Region 93.8% of all the land acreage is within
+0-2 miles of a road&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Squires (6) indicated nesting habitat is the most important component
+in limiting B distribution and numbers of birds. In the Black Hills
+Forest Plan Revision, the experts( Squires, Reynolds) considered a
+lack of providing landscape level nesting habitat as a major negative
+effect.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;h3 id=&quot;status-and-policy&quot;&gt;Status and Policy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.rpi-project.org/species-conservation-northern-goshawk-accipiter-gentilis/&quot;&gt;Goshawk - Raptor Population
+Index&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5369460.pdf&quot;&gt;R2 Northern Goshawk Sensitive Species listing
+Evalution&lt;/a&gt;
+### Literature&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.fs.usda.gov/treesearch/pubs/24986&quot;&gt;Northern goshawk inventory and monitoring technical
+guide&lt;/a&gt; ### Data&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ebird.github.io/ebirdst/&quot;&gt;ebirdst R package&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2025 NEPA Regs Notes</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/new_nepa_regs_2025/" />
+    <updated>2025-07-07T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/new_nepa_regs_2025/</id>
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-amd-1&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057720277%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=b1qWzrVI0WOLBmm0g9p2YKNJQRa8IuoozpYirCtQmfc%3D&amp;amp;reserved=0&quot;&gt;Link to New Regs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From Laurel Glidden, San Juan NEPA Coordinator:&lt;/p&gt;
+&lt;p&gt;A quick rundown of changes we know so far:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All USDA agency NEPA regulations, including Forest Service CE categories, can now be found at 7 CFR 1b. Emergency response information can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-998&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057749863%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=KVZcyOtkW5wijs5DNLlyLAgWMqMyzv1GIUx18N3%2F9XU%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.9(w)&lt;/a&gt; and Forest Service CE categories can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-468&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057765096%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=0CGiD2vy2OulHBX%2B2HVSwkBL9x78VnQ4Gj%2FOC9fL344%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.4(c)(19)-(c)(29)&lt;/a&gt; and &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-651&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057779007%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=mKfB2q1LvKGQOUZxvVhSQBkwgtuuYlb3lICVBDynaoc%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.4(d)(26)-(d)(47)&lt;/a&gt;. Please see the attached list for viewing changes made to emergency response and CE categories, as well as old &amp;amp; new categories.&lt;/li&gt;
+&lt;li&gt;All USDA and sub-agency CEs, including adopted CEs from other agencies, are now available to the Forest Service and all other USDA agencies. - Our list of extraordinary circumstances has changed slightly to be consistent across the USDA. The new list can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-288&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057792640%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=M0Q3ylqUL%2BunDtOBLkfz7jQ%2F7Zq7TAqhPbweM5KMwYw%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.3(f)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Requirements for the following have been removed (NOTE: This is only as applies to NEPA and does not affect requirements from other laws, such as Endangered Species Act (ESA), Clean Water Act (CWA), National Historic Preservation Act (NHPA), etc.):
+&lt;ul&gt;
+&lt;li&gt;Scoping for Categorical Exclusions (CEs) and Environmental Assessments (EAs)&lt;/li&gt;
+&lt;li&gt;Decision Memos (CEs) and Decision Notices (EAs)
+&lt;ul&gt;
+&lt;li&gt;There are still requirements for documentation of some CE categories, same as before. The new regulations require documentation of a “finding of applicability and no extraordinary circumstance” (FANEC) and gives agencies flexibility to decide what that documentation will look like but lays out some requirements for information that must be included. This information can be found at &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-300&quot;&gt;7 CFR 1b.3(g)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Additionally, &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-758&quot;&gt;Environmental Assessment&lt;/a&gt; documents and a &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-784&quot;&gt;Finding of No Significant Impact&lt;/a&gt; are still required, and if other statutes or regulations require a decision document, the FONSI can be retitled to function as a decision document.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publication of a draft Environmental Impact Statement (EIS)&lt;/li&gt;
+&lt;li&gt;Schedule of Proposed Actions (SOPA)
+&lt;ul&gt;
+&lt;li&gt;Note: Forest Service units may use project webpages to provide updates to the public&lt;/li&gt;
+&lt;li&gt;Cumulative effects analysis
+&lt;ul&gt;
+&lt;li&gt;Instead, effects must be “reasonably foreseeable and have a reasonably close causal relationship to the proposed action or alternatives”.&lt;/li&gt;
+&lt;li&gt;This does not remove the requirement for cumulative effects from other laws, only NEPA. So, for example, we may still be required to do cumulative effects via ESA and we are being encouraged to consolidate documentation where it makes sense to do, so it may be that little changes here in reality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;EAs and EISs must now contain certifying statements saying they were completed within the statutory timeframes (one and two years, respectively).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;notes&quot;&gt;Notes:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cumulative Effects for ESA are not the same as NEPA. They generally just cover non-federal reasonably certain to occur actions. The thought being is that all Federal Actions would have already had consultation.
+&lt;ul&gt;
+&lt;li&gt;NEPA Cumulative Effects: &amp;quot;&lt;em&gt;The impact on the environment which results from the incremental impact of the action when added to other past, present, and reasonably foreseeable future actions regardless of what agency (Federal or non-federal) or person undertakes such other actions 40 CFR §1508.7.&lt;/em&gt;&amp;quot;&lt;/li&gt;
+&lt;li&gt;ESA Cumulative Effects: &amp;quot;&lt;em&gt;Cumulative effects are those effects of future State or private activities, not involving Federal activities that are reasonably certain to occur within the action area of the Federal action subject to consultation(§402.02)&lt;/em&gt;&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Lynx Lau Analysis</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/lau_analysis/" />
+    <updated>2025-07-03T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/lau_analysis/</id>
+    <content type="html">&lt;p&gt;The San Juan National Forest just redrew it’s Lynx Analysis Units to
+align with newly proposed critical habitat by the Fish and Wildlife
+Service and new habitat mapping by Squires et al. (2024). Here is a
+short analysis of the new mapping compared to the old mapping.&lt;/p&gt;
+&lt;h2 id=&quot;new-laus-with-squires-et-al-habitat-mapping&quot;&gt;New LAUs with Squires et. al. Habitat Mapping&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;lau&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Unlikely&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Likely&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Core&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;perc_unlikely&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Anvil Mountain&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18983.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22577.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;12792.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.35&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Bear Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;36013.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2715.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Black Mesa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;21819.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;10322.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Chalk Mountain&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;34024.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4992.3&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.87&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;East Dolores River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;30085.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;East Fork San Juan River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;48709.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;14670.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;92.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.77&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engineer&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13941.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11059.2&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;10778.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.39&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Flat Top&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;5309.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18588.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11571.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Fourmile-turkey&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;36689.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;6743.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.84&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Junction Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;20253.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;234.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lizard Head&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18759.4&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18627.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1135.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.49&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lower Hermosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29676.3&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2053.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lower Pine River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;19762.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1775.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.92&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mancos&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22556.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;24.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Missionary - Florida&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;51449.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2373.4&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.96&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Needles&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29469.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;25342.3&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;8337.1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.47&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Pagosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;30487.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1305.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.96&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Piedra River Headwaters&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;36988.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18097.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;882.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.66&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Rico&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;20592.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;19314.5&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;373.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Rio Blanco&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;43585.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;6486.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;49.8&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.87&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Upper Hermosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13631.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;20730.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3230.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Upper Pine River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29751.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22897.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;53.4&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Vallecito Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;40301.4&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;16314.9&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;8130.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Weminuche&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;39262.4&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4031.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.91&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;West Fork San Juan River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;28801.0&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13528.7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;252.6&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;The vast majority of LAUs on the San Juan have No Lynx habitat as
+modeled by Squires et al. (2024).&lt;/p&gt;
+&lt;h2 id=&quot;old-habitat-mapping&quot;&gt;Old habitat mapping&lt;/h2&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 26%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 11%&quot;&gt;
+&lt;col style=&quot;width: 12%&quot;&gt;
+&lt;col style=&quot;width: 21%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;lau&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Alpine&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Suitable&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;Unsuitable&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;total_acres&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;perc_not_hab_all_lau&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;perc_hab&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Anvil Mountain&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;9386.88&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29670.57&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3072.35&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;54341.22&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.45&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.91&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Bear Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;665.36&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;25306.29&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3229.89&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;38815.20&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.35&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.89&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Black Mesa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;311.61&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;21506.15&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1166.77&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;32245.29&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.33&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Chalk Mountain&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2769.68&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11174.26&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;123.89&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;39168.89&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.71&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;East Dolores River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;348.93&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;21855.14&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;686.93&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;30291.47&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.28&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;East Fork San Juan River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4304.83&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;32900.78&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1795.41&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;63542.95&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.48&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.95&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engineer&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;16896.05&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11492.87&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;229.70&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;35814.34&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.98&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Flat Top&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2976.05&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;23694.23&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;74.23&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;35447.73&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.33&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Fourmile-turkey&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;153.89&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;12613.36&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2342.59&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;43601.04&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.71&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.84&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Junction Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1907.01&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11906.77&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;73.65&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;20679.70&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.42&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lizard Head&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;744.73&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;25296.68&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;140.76&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;38501.98&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.34&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lower Hermosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;257.85&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18721.83&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3344.34&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;32596.13&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.43&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.85&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Lower Pine River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2414.08&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;10220.07&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;600.56&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;21778.57&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.53&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mancos&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;397.38&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;17030.68&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;201.26&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22756.82&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.25&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Missionary - Florida&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;10557.85&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;24308.03&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2632.14&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;54212.26&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.55&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Needles&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;23673.24&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22622.43&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;649.32&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;63089.56&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.64&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Pagosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13.31&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;32372.85&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Piedra River Headwaters&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;7672.97&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;30176.07&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1797.68&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;56025.05&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.46&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Rico&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1570.95&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;28365.84&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;74.14&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;40253.45&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.30&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Rio Blanco&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2159.33&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;19564.50&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;463.21&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;50307.66&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.61&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.98&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Upper Hermosa&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;785.48&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;28984.30&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2108.82&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;37579.71&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.23&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Upper Pine River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13444.28&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29076.66&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;903.55&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;52797.98&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.45&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Vallecito Creek&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;20109.49&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22336.65&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1792.23&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;64844.28&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.66&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Weminuche&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4825.45&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;27323.53&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2916.70&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;43353.35&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.37&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.90&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;West Fork San Juan River&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;7586.69&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;9859.31&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;17633.77&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;42701.59&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.77&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.36&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;div id=&quot;refs&quot; class=&quot;references csl-bib-body hanging-indent&quot; entry-spacing=&quot;0&quot;&gt;
+&lt;div id=&quot;ref-squiresAnthropogenicallyProtectedNaturally2024&quot; class=&quot;csl-entry&quot;&gt;
+&lt;p&gt;Squires, John R., Lucretia E. Olson, Jacob S. Ivan, Peter M. McDonald,
+and Joseph D. Holbrook. 2024. “Anthropogenically Protected but Naturally
+Disturbed: A Specialist Carnivore at Its Southern Range Periphery.”
+&lt;a href=&quot;https://doi.org/10.1007/s10531-024-02978-8&quot;&gt;https://doi.org/10.1007/s10531-024-02978-8&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Trump Admin Executive Orders Notes</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/esa_executive_orders_20250702/" />
+    <updated>2025-07-02T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/esa_executive_orders_20250702/</id>
+    <content type="html">&lt;h2 id=&quot;the-eos&quot;&gt;The EOs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.federalregister.gov/documents/2025/01/29/2025-02003/declaring-a-national-energy-emergency&quot;&gt;Executive Order 14146 Declaring a National Energy Emergency&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Convening of the God Squad Quarterly&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.federalregister.gov/documents/2025/03/06/2025-03695/immediate-expansion-of-american-timber-production&quot;&gt;Executive Order 14225 Immediate Expansion of American Timber Production&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;Can use emergency consultation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.usda.gov/sites/default/files/documents/sm-1078-006.pdf&quot;&gt;Secretarial Memo 1078-006 Increasing Timber Production and Designating an Emergency Situation on National Forest Sytem Lands&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;if half of project is within this designated area&lt;/li&gt;
+&lt;li&gt;Should use Emergency Consultation to comply with ESA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Associate Chief&#39;s Memo: Implementation of Secretarial Memo 1078-006&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;some-random-notes&quot;&gt;Some Random Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;You can use emergency consultation for timber and energy, with the exception of wind and solar.&lt;/li&gt;
+&lt;li&gt;EOs have &amp;quot;thou shalt&amp;quot;.&lt;/li&gt;
+&lt;li&gt;What is an emergency: typically those are not predictable events. Timber sales under the current EOs are &amp;quot;Emergencies&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Emergency consultations are not exemptions from ESA.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;the-gist&quot;&gt;The Gist&lt;/h2&gt;
+&lt;p&gt;The most important part of this training was that line officers need to decide if they want to use emergency consultation or not, but that the administration and managers will be monitoring how many Emergency Consultations that we use.&lt;/p&gt;
+&lt;p&gt;Also, that emergency consultations are not exemptions from consultation and that the consultations will need to be done at some point.&lt;/p&gt;
+&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://usdagcc.sharepoint.com/sites/fs-wo-tess/SitePages/Executive-Orders-&amp;amp;-ESA.aspx?csf=1&amp;amp;web=1&amp;amp;e=deusRk&amp;amp;CID=89b42028-f1e7-418f-b6f9-496beeef59cc&amp;amp;xsdata=MDV8MDJ8fDcyMGVlMjA4OWVlODQ2Y2JmMDJlMDhkZGI5OWJhZTQyfGVkNWIzNmU3MDFlZTRlYmM4NjdlZTAzY2ZhMGQ0Njk3fDB8MHw2Mzg4NzA4MDA0NTExNzAzNTB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbTFsWlhScGJtZGZUV3BGTTA1NlJteGFWMUYwVFhwRmVrMXBNREJaVjFKdFRGZEthMXBxUlhSYWFsRXlUVWRWZWs5WFdUVk9WRkY0UUhSb2NtVmhaQzUyTWk5dFpYTnpZV2RsY3k4eE56VXhORGd6TWpRME1EQTV8ZTA5MzhjN2E0ZWI0NGFmMWYwMmUwOGRkYjk5YmFlNDJ8NWVlNGFiYTY1ZjJlNDk1OGE5YjNhOTc1ZmIwZWM0MmI%3D&amp;amp;sdata=Y0NBUUxHZUVzbktuOFRycHVXd3pSZVB2WU0rYmM4dEhUY3Q5ZzlxL3BvST0%3D&amp;amp;ovuser=ed5b36e7-01ee-4ebc-867e-e03cfa0d4697%2CMichael.Schmidt4%40usda.gov&amp;amp;OR=Teams-HL&amp;amp;CT=1751483266987&amp;amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA2MDIwNjYxNiJ9&quot;&gt;Sharepoint on EOs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>FS Veg vs Landfire, and FIA excercise.</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/landfire_vs_fs_veg/" />
+    <updated>2025-07-01T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/landfire_vs_fs_veg/</id>
+    <content type="html">&lt;p&gt;The Forest Service developed a polygon based system called FSVeg. It is
+an amazing product. But it relies heavily on by-hand interpretation of
+aerial imagery. Raster based products that are remotely sensed with
+computer models have since been developed such and LandFire. A debate
+about what to use has occured on the San Juan National Forest. I’ve been
+a proponent of LandFire. But many are skepticle. Almost all current
+products rely on FSVeg.&lt;/p&gt;
+&lt;p&gt;This grey paper will use FIA data to evaluate both FSVeg and Landfire
+for species occurrence and cover metrics.&lt;/p&gt;
+&lt;h2 id=&quot;is-basal-area-correlated-to-canopy-cover&quot;&gt;Is basal area correlated to canopy cover&lt;/h2&gt;
+&lt;p&gt;Here we look at if canopy cover of FSVeg, NLCD and Landfire correlate to
+FIA basal area. In short they really don’t. Basal area probably isn’t a
+great metric to test against canopy cover.&lt;/p&gt;
+&lt;p&gt;It is interesting to see that the canopy cover metrics do correlate to
+one another a bit and it is good to see that landfire and nlcd correlate
+to one another.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;fia_ba&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;fs_veg_cc&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;nlcd_cc&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;lf_cc_avg&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;fia_ba&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.1998669&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.1739695&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.2600609&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;fs_veg_cc&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.1998669&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.4927437&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.4724324&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;nlcd_cc&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.1739695&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.4927437&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.6932432&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;lf_cc_avg&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.2600609&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.4724324&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.6932432&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;dominant-forest-type&quot;&gt;Dominant Forest Type&lt;/h2&gt;
+&lt;p&gt;Here we check the tree species with the greatest basal area in FIA to
+see if the dominant veg type matches LOCAL_TYPE in FS_VEG and EVT_GP_N
+in Landfire. Honestly I’m fairly surprised at how well these match given
+that the FIA points are just points and both FSVeg and LandFire data are
+averages of larger areas.&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 20%&quot;&gt;
+&lt;col style=&quot;width: 22%&quot;&gt;
+&lt;col style=&quot;width: 46%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;fia_ba&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;fia_cn&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;fsveg&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;lf_evg_gp&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.9799111&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Gambel oak&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;8.0855005&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;blue spruce&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Riparian&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Western Riparian Woodland and
+Shrubland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;15.9852922&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;13.4109497&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen w Conifer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
+Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;17.1202696&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Warm-dry Mixed Conifer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
+Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;22.1380587&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
+Savanna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;10.6879856&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Cool-moist Mixed Conifer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
+Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4.6307187&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;corkbark fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;9.2389124&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;quaking aspen&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen w Conifer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen-Mixed Conifer Forest and
+Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;21.1652287&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Pinyon-juniper&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;15.3320666&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;quaking aspen&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;9.2698911&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.3798166&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;corkbark fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1.8044559&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Utah juniper&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Pinyon-juniper&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
+Savanna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;16.5336919&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;12.7657960&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;subalpine fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;18.2253046&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
+Savanna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.4320113&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Rocky Mountain juniper&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
+Savanna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11.5877320&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
+Savanna&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;11.3211405&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
+Woodland&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;I think this needs further investigation but for now I have to say I’m
+at least a little more supportive of FSVeg. I’m not sure if I want to
+use it but I’m at least a bit more supportive of it than I was prior to
+these checks.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Anthropogenically protected but naturally disturbed: a specialist carnivore at its southern range periphery</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/" />
+    <updated>2025-01-13T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/</id>
+    <content type="html">&lt;p&gt;Species distribution models were developed using gps collar data collected in 2010, 2012, and 2013 in the Vail area and in the San Juan Mountains. Models were then used to determine what anthropocentric and environmental factors are disturbing lynx habitat.&lt;/p&gt;
+&lt;h2 id=&quot;model-notes&quot;&gt;Model Notes&lt;/h2&gt;
+&lt;p&gt;Seventeen variables were used to make the model. Topographic, vegetation and environmental variables were assessed. The most important variables in the model were precip as snow, relative humidity, Soil PH, Summer Precip, Topographic Position Index, Temp Coldest Month. The rest were relatively unimportant. PH was used to assess wetter conditions of subalpine forests. Lower PH is associated with wetter conditions.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/E3-Gtd069c-765.avif 765w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/E3-Gtd069c-765.webp 765w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/E3-Gtd069c-765.png&quot; alt=&quot;Variable importance for the ensemble model.&quot; width=&quot;765&quot; height=&quot;439&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Model was built with GPS collar data collected from 18 animals captured in the Vail area and the San Juan Mountains. The model was evaluated using camera trap data, snow track surveys, and Den locations. Thirty percent of the GPS data was used to build the model and 70% of the data was used to validate the model.&lt;/p&gt;
+&lt;h2 id=&quot;disturbance-metrics&quot;&gt;Disturbance Metrics&lt;/h2&gt;
+&lt;p&gt;Overall natural disturbances (exacerbated by climate) were far greater impact to lynx habitat then anthropogenic. To assess impacts to habitat, the model was classified into three categories: 1) Unlikely or &amp;gt;95% isopleth, 2) Likely or 95% and Core or 50%. Ninety-five percent or Likely represented the portion of the model that 95% of the withheld (70%) validations points fell within.&lt;/p&gt;
+&lt;p&gt;Natural disturbance altered forest structure in 31%% of Likely and 19% of high-quality Core habitat. Spruce beetles overlapped 25% of Likely habitat and 17% of Core habitat. Fire Disturbance across the Southern Rockies overlapped just 5% of Likely lynx habitat. Anthropogenic disturbances from housing and ski areas impacted just 4% of Likely lynx habitat and tree harvest and controlled burning had ~3% of impact.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.avif 713w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.webp 713w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.png&quot; alt=&quot;Disturbance numbers by habitat category&quot; width=&quot;713&quot; height=&quot;369&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;p&gt;Squires, J. R., Olson, L. E., Ivan, J. S., McDonald, P. M., &amp;amp; Holbrook, J. D. (2024). Anthropogenically protected but naturally disturbed: A specialist carnivore at its southern range periphery. Biodiversity and Conservation. https://doi.org/10.1007/s10531-024-02978-8&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Weminuche Bighorn Sheep (RBS-20)</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/" />
+    <updated>2023-04-28T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/</id>
+    <content type="html">&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Population Estimate (in DAU Plan 2012): 460 (200 in S-15, 135 in S-16,
+and 125 in S28) (CPW 2012)&lt;/li&gt;
+&lt;li&gt;Population Estimate 2022: 395, a decrease of 17% from 2012 (180 in
+S15, 135 in S16, 80 in S28). The largest decrease was in S-28
+(Vallecito), a decrease of 36%.&lt;/li&gt;
+&lt;li&gt;Population Estimate in 2023: Decreased!!
+&lt;ul&gt;
+&lt;li&gt;S28 - 50 (was 80)&lt;/li&gt;
+&lt;li&gt;S16 - 100 (was 135)&lt;/li&gt;
+&lt;li&gt;S15 - 140 (was 180)&lt;/li&gt;
+&lt;li&gt;Total - 290 (was 395 [26% reduction])&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Statewide 6,900.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conservation-status-notes&quot;&gt;Conservation Status Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://cpw.state.co.us/Documents/WildlifeSpecies/SWAP/CO_SWAP_FULLVERSION.pdf&quot;&gt;CPW Statewide Action
+Plan&lt;/a&gt;:
+Tier 2&lt;/li&gt;
+&lt;li&gt;Forest Service:
+&lt;a href=&quot;https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5318798.pdf&quot;&gt;Sensitive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;BLM Colorado: Sensitive&lt;/li&gt;
+&lt;li&gt;CPW Satus: &lt;strong&gt;Tier 1 Herd&lt;/strong&gt; (A Primary Population). Tier 1 herds: “are
+regarded as those large (i.e., ≥100 animals for ≥90% of the years
+since 1986), native populations comprised of one or more
+interconnected herds (in, or to be designated into, GMUs) that have
+received few (i.e., ≤50 animals total) if any supplemental releases of
+Rocky Mountain bighorn sheep in the past. Tier 1 populations should be
+given the highest priority for inventory, habitat protection and
+improvement, disease prevention, and research.” (CPW 2021)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.102557/Ovis_canadensis&quot;&gt;Nature Serve:
+Worldwide&lt;/a&gt;
+= G4 (Apparently Secure), Colorado = S4 (Apprently Secure)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
+&lt;p&gt;Excerpts from CPW DAU Plan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1911 - “Forest Ranger E. E. Chapson, of Pagosa Springs, says that a
+good many sheep are killed by snowslides in the San Juan Mountains
+north of that point.”&lt;/li&gt;
+&lt;li&gt;“In 1962 Moser documented locations occupied by bighorn sheep
+representing a large geographical area within the San Juan Mountains.
+This included Cimarron Peak, South River Peak, Weminuche Creek,
+Grenadier Range, Sunshine Peak, and Engineer Mountain”&lt;/li&gt;
+&lt;li&gt;“By 1973 the range of bighorn sheep had decreased significantly from
+historic occurrence. Summer range consisted of three main areas. The
+first was the country north of Wolf Creek Pass to Table Mountain and
+west to Beaver Creek. The second area included the headwaters of
+Weminuche, Cimarrona, Hossick, and Williams Creeks. And the third was
+the region between the Los Pinos River and Vallecito Creek north to
+Rock Creek (Bear and Jones 1973). The western areas, past Vallecito
+Creek, were no longer presented as occupied habitat.”&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h2 id=&quot;collaring-and-disease-study&quot;&gt;Collaring and Disease Study&lt;/h2&gt;
+&lt;h3 id=&quot;collaring-effort&quot;&gt;Collaring Effort&lt;/h3&gt;
+&lt;h2 id=&quot;todo&quot;&gt;Todo&lt;/h2&gt;
+&lt;p&gt;[ ] - Need to look in more detail the observations that overlap with
+non-vacant allotments. [ ] - add active allotments in Silverton.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my fourth post</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/fourthpost/" />
+    <updated>2018-09-30T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/fourthpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/fourthpost/IdthKOzqFA-350.avif 350w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/fourthpost/IdthKOzqFA-350.webp 350w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/fourthpost/IdthKOzqFA-350.png&quot; alt=&quot;A possum parent and two possum kids hanging from the iconic red balloon&quot; width=&quot;350&quot; height=&quot;685&quot;&gt;&lt;/picture&gt;
+&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my third post.</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/thirdpost/" />
+    <updated>2018-08-24T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/thirdpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
+&lt;h3 id=&quot;this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap-this-is-a-very-long-heading-that-i-want-to-wrap&quot;&gt;This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap This is a very long heading that I want to wrap&lt;/h3&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot; tabindex=&quot;0&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// this is a command&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;myCommand&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; counter &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+	counter&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;// Test with a line break above this line.&lt;/span&gt;
+console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;Test&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;heading-with-a-link&quot;&gt;Heading with a &lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/thirdpost/#code&quot;&gt;link&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// this is a command
+function myCommand() {
+	let counter = 0;
+	counter++;
+}
+
+// Test with a line break above this line.
+console.log(&#39;Test&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This is my second post with a much longer title.</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/secondpost/" />
+    <updated>2018-07-04T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/secondpost/</id>
+    <content type="html">&lt;p&gt;Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.&lt;/p&gt;
+&lt;h2 id=&quot;section-header&quot;&gt;Section Header&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/firstpost/&quot;&gt;First post&lt;/a&gt;
+&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/thirdpost/&quot;&gt;Third post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.&lt;/p&gt;
+&lt;p&gt;Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.&lt;/p&gt;
+</content>
+  </entry>
+</feed>

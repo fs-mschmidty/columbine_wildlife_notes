@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>2025 NEPA Regs Notes</title>
+		<meta name="description" content="These are Mike Schmidt&#39;s notes for the Columbine Ranger District.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Columbine Wildlife Notes">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #c0c0c0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050f;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #c0c0c0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img {
+	max-width: 100%;
+}
+img[width][height] {
+	height: auto;
+}
+img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+	max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+caption {
+	text-align: start;
+}
+
+caption {
+	margin-block: 0.75rem;
+}
+
+thead th:not(:first-child),
+td {
+	text-align: end;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+thead {
+	border-block-end: 2px solid;
+	background: whitesmoke;
+}
+
+tfoot {
+	border-block: 2px solid;
+	background: whitesmoke;
+}
+
+th,
+td {
+	border: 1px solid lightgrey;
+	padding: 0.25rem 0.75rem;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: 0.5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em 0.5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: 0.25em;
+	padding-right: 0.5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/columbine_wildlife_notes/" class="home-link">Columbine Wildlife Notes</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/columbine_wildlife_notes/">Home</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/about/">About</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="2025-nepa-regs-notes">2025 NEPA Regs Notes</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-07-07">07 July 2025</time></li>
+	<li><a href="/columbine_wildlife_notes/tags/nepa/" class="post-tag">NEPA</a></li>
+</ul>
+
+<p><a href="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-amd-1&amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057720277%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=b1qWzrVI0WOLBmm0g9p2YKNJQRa8IuoozpYirCtQmfc%3D&amp;reserved=0">Link to New Regs</a></p>
+<p>From Laurel Glidden, San Juan NEPA Coordinator:</p>
+<p>A quick rundown of changes we know so far:</p>
+<ul>
+<li>All USDA agency NEPA regulations, including Forest Service CE categories, can now be found at 7 CFR 1b. Emergency response information can be found at <a href="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-998&amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057749863%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=KVZcyOtkW5wijs5DNLlyLAgWMqMyzv1GIUx18N3%2F9XU%3D&amp;reserved=0">7 CFR 1b.9(w)</a> and Forest Service CE categories can be found at <a href="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-468&amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057765096%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=0CGiD2vy2OulHBX%2B2HVSwkBL9x78VnQ4Gj%2FOC9fL344%3D&amp;reserved=0">7 CFR 1b.4(c)(19)-(c)(29)</a> and <a href="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-651&amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057779007%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=mKfB2q1LvKGQOUZxvVhSQBkwgtuuYlb3lICVBDynaoc%3D&amp;reserved=0">7 CFR 1b.4(d)(26)-(d)(47)</a>. Please see the attached list for viewing changes made to emergency response and CE categories, as well as old &amp; new categories.</li>
+<li>All USDA and sub-agency CEs, including adopted CEs from other agencies, are now available to the Forest Service and all other USDA agencies. - Our list of extraordinary circumstances has changed slightly to be consistent across the USDA. The new list can be found at <a href="https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-288&amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057792640%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;sdata=M0Q3ylqUL%2BunDtOBLkfz7jQ%2F7Zq7TAqhPbweM5KMwYw%3D&amp;reserved=0">7 CFR 1b.3(f)</a>.</li>
+<li>Requirements for the following have been removed (NOTE: This is only as applies to NEPA and does not affect requirements from other laws, such as Endangered Species Act (ESA), Clean Water Act (CWA), National Historic Preservation Act (NHPA), etc.):
+<ul>
+<li>Scoping for Categorical Exclusions (CEs) and Environmental Assessments (EAs)</li>
+<li>Decision Memos (CEs) and Decision Notices (EAs)
+<ul>
+<li>There are still requirements for documentation of some CE categories, same as before. The new regulations require documentation of a “finding of applicability and no extraordinary circumstance” (FANEC) and gives agencies flexibility to decide what that documentation will look like but lays out some requirements for information that must be included. This information can be found at <a href="https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-300">7 CFR 1b.3(g)</a></li>
+<li>Additionally, <a href="https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-758">Environmental Assessment</a> documents and a <a href="https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-784">Finding of No Significant Impact</a> are still required, and if other statutes or regulations require a decision document, the FONSI can be retitled to function as a decision document.</li>
+</ul>
+</li>
+<li>Publication of a draft Environmental Impact Statement (EIS)</li>
+<li>Schedule of Proposed Actions (SOPA)
+<ul>
+<li>Note: Forest Service units may use project webpages to provide updates to the public</li>
+<li>Cumulative effects analysis
+<ul>
+<li>Instead, effects must be “reasonably foreseeable and have a reasonably close causal relationship to the proposed action or alternatives”.</li>
+<li>This does not remove the requirement for cumulative effects from other laws, only NEPA. So, for example, we may still be required to do cumulative effects via ESA and we are being encouraged to consolidate documentation where it makes sense to do, so it may be that little changes here in reality.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>EAs and EISs must now contain certifying statements saying they were completed within the statutory timeframes (one and two years, respectively).</li>
+</ul>
+<h2 id="notes">Notes:</h2>
+<ul>
+<li>Cumulative Effects for ESA are not the same as NEPA. They generally just cover non-federal reasonably certain to occur actions. The thought being is that all Federal Actions would have already had consultation.
+<ul>
+<li>NEPA Cumulative Effects: &quot;<em>The impact on the environment which results from the incremental impact of the action when added to other past, present, and reasonably foreseeable future actions regardless of what agency (Federal or non-federal) or person undertakes such other actions 40 CFR §1508.7.</em>&quot;</li>
+<li>ESA Cumulative Effects: &quot;<em>Cumulative effects are those effects of future State or private activities, not involving Federal activities that are reasonably certain to occur within the action area of the Federal action subject to consultation(§402.02)</em>&quot;</li>
+</ul>
+</li>
+</ul>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/columbine_wildlife_notes/blog/lau_analysis/">Lynx Lau Analysis</a></li><li class="links-nextprev-next">Next →<br><a href="/columbine_wildlife_notes/blog/goshawk_survey_protocol_notes/">Notes on Goshawk Survey Protocol</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/new_nepa_regs_2025/` was built on 2025-08-26T15:09:06.740Z -->
+		<script type="module" src="/columbine_wildlife_notes/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
