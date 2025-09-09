@@ -305,3 +305,9 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
+
+/* Citations */
+
+.references dd {
+	margin-bottom: 1rem;
+}

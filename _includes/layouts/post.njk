@@ -16,6 +16,15 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
+<h2>Bibliography</h2>
+
+<dl class="references">
+	{% for reference in references %}
+		<!-- <dt><a href="#bib-{{ reference.id }}" class="reference" id="bib-{{ reference.id }}">{{ reference | bibliography_citation }}</a></dt> -->
+		<dd>{{ reference | bibliography_entry | safe }}</dd>
+	{% endfor %}
+</dl>
+
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
 {%- set nextPost = collections.posts | getNextCollectionItem %}

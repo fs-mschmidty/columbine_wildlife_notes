@@ -1,0 +1,163 @@
+---
+title: Silverspot Elevation Analysis
+date: 2025-09-09
+tags: ["Silverspot"]
+format:
+  commonmark:
+    variant: +yaml_metadata_block
+    df-print: tibble
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+bibliography: references.bib
+knitr:
+  opts_chunk:
+    dev: "ragg_png"
+
+---
+There has been  a bit of debate about where silverspot butterflies could occur on the Columbine Ranger District.  Colonies are known to occur up to 8,300 feet but one individual was seen  at 9,300 feet. The FWS wants us to survey butterflies up to 9,300 feet, but we are skeptical that they would occur so high given that there are no colonies known from higher than 8,300 feet.
+
+Here I look at the elevation ranges of *Speyeria nokomis* to inform elevation ranges of *Speyeria nokomis nokomis* using citizen science data from GBIF [@GBIFGlobalBiodiversity2024] data using the rgbif package[@chamberlainRgbifInterfaceGlobal2012].
+```{r}
+library(spocc)
+library(sf)
+library(tidyverse)
+library(MetBrewer)
+library(elevatr)
+library(ggrain)
+library(rnaturalearth)
+library(ragg)
+
+theme_set(theme_minimal(base_family = "Fira Code")) +
+  theme_update(
+    plot.title = ggtext::element_markdown(face = "bold")
+  )
+```
+
+
+```{r}
+#| cache: true
+sn_gbif <- occ(query = "Speyeria nokomis", from = "gbif", limit = 10000)
+sn_gbif_sf <- sn_gbif$gbif$data$Speyeria_nokomis |>
+  filter(!is.na(latitude), !is.na(longitude)) |>
+  st_as_sf(crs = 4326, coords = c("longitude", "latitude"))
+
+# mapview::mapview(select(sn_gbif_sf, where(~ !is.list(.))))
+#
+#
+# sn_inat <- occ(query = "Speyeria nokomis", from = "inat", limit = 10000)
+# sn_inat_sf <- sn_inat$inat$data$Speyeria_nokomis |>
+#   filter(!is.na(latitude), !is.na(longitude)) |>
+#   st_as_sf(crs = 4326, coords = c("longitude", "latitude"))
+#
+#
+# sn_idb <- occ(query = "Speyeria nokomis", from = "idigbio", limit = 10000)
+#
+# sn_idb_sf <- sn_idb$idigbio$data$Speyeria_nokomis |>
+#   # filter(!is.na(latitude), !is.na(longitude)) |>
+#   st_as_sf(crs = 4326, coords = c("longitude", "latitude"))
+
+gbif_elev <- sn_gbif_sf |>
+  select(-elevation) |>
+  get_elev_point(src = "aws") |>
+  mutate(
+    elevation_ft = elevation * 3.28084
+  )
+```
+
+
+```{r}
+gbif_elev_df <- gbif_elev |>
+  as_tibble() |>
+  select(elevation, year) |>
+  filter(!is.na(elevation) & elevation > 0) |>
+  mutate(
+    elevation = elevation * 3.28084,
+    elev_percentile = percent_rank(elevation),
+    elev_perc_95 = ifelse(
+      elev_percentile < 0.975 & elev_percentile > 0.025,
+      "Yes",
+      "No"
+    )
+  )
+gbif_elev_df |>
+  ggplot(aes(x = 1, elevation)) +
+  geom_rain(cov = "elev_perc_95", fill = "#D95F02FF", alpha = 0.5) +
+  scale_y_continuous(breaks = seq(0, 12000, by = 2000)) +
+  scale_color_brewer(palette = 'Dark2') +
+  labs(
+    title = "Elevation (ft) all *Speyeria nokomis* observations in GBIF",
+    color = "95 Percentile"
+  ) +
+  theme(
+    legend.position = "top",
+    plot.title = ggtext::element_markdown()
+  )
+```
+
+
+
+So it looks like there are observations from 0 to 12,000 feet.   However, the vast majority of the observations are from about 9,200 feet to 4,500 feet. I noticed that a lot of points are old that are from unusual elevations.  Let me filter out very old observations, keeping anything since the year 2010. These points are more likely to have accurate location data.
+
+```{r}
+gbif_elev_df |>
+  filter(year > 2010) |>
+  ggplot(aes(x = 1, elevation)) +
+  geom_rain(fill = "#D95F02FF", alpha = 0.5) +
+  scale_y_continuous(breaks = seq(0, 12000, by = 2000)) +
+  scale_color_brewer(palette = 'Dark2') +
+  labs(
+    title = "Elevation (ft) observations since 2010 *Speyeria nokomis* observations <br> in GBIF",
+    color = "95 Percentile"
+  ) +
+  theme(
+    legend.position = "top",
+    plot.title = ggtext::element_markdown()
+  )
+```
+
+There are fewer occurrences at very high elevations (i.e. >11,000 feet) but there is nothing here that demonstrates that they could not be found up to 9,300 feet.
+
+I want to double check that the high elevation occurrences are not associated with lower latitudes so let's map these out.
+
+```{r}
+
+na <- ne_states(country = c("united states of america", "mexico")) |>
+  filter(!name_en %in% c("Alaska", "Hawaii"))
+ggplot() +
+  geom_sf(data = na, fill = "transparent", color = "black") +
+  geom_sf(
+    data = filter(gbif_elev, elevation_ft > 0),
+    aes(color = elevation_ft),
+    size = 4
+  ) +
+  scale_color_viridis_c(direction = -1) +
+  labs(
+    title = "Distribution and elevation of *Speyeria nokomis*",
+    color = "Elevation ft"
+  ) +
+  guides(
+    colour = guide_colourbar(
+      barwidth = 20,
+      barheight = 0.4,
+      label.position = "bottom"
+    )
+  ) +
+  theme(
+    legend.position = "top"
+  )
+```
+
+It does there are high elevation occurances both in Colorado and Mexico so Latitude doesn't have that much to do with it.
+
+## Conclusion
+
+After this analysis, I think there is reasonable evidence to suggest that *Speyeria nokomis nokomis* could occur up to 9,300 feet in elevation. While I don't think that it is unlikely that we will find butterflies above 8,300 feet it appears, from this analysis, that it could happen.
+
+## References
+
+
+
+
