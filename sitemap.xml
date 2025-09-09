@@ -47,32 +47,37 @@
 	</url>
 	
 	<url>
-		<loc>https://example.com/columbine_wildlife_notes/blog/lit_notes/2003_pinus_ponderosa_var_brachyptera_southwestern_ponderosa_pine_rocky_mountain/</loc>
+		<loc>https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/</loc>
 		<lastmod>2025-08-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/</loc>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/about/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/blog/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/tags/</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/feed/feed.xml</loc>
-		<lastmod>2025-08-26</lastmod>
+		<lastmod>2025-09-09</lastmod>
 	</url>
 </urlset>

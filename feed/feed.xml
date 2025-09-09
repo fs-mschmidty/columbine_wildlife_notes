@@ -5,17 +5,366 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/columbine_wildlife_notes/feed/feed.xml" rel="self" />
   <link href="https://example.com/columbine_wildlife_notes/" />
-  <updated>2025-08-26T00:00:00Z</updated>
+  <updated>2025-09-09T00:00:00Z</updated>
   <id>https://example.com/columbine_wildlife_notes/</id>
   <author>
     <name>Michael Schmidt</name>
   </author>
   <entry>
-    <title>Pinus ponderosa var. brachyptera, P. p. var. scopulorum, southwestern ponderosa pine, Rocky Mountain ponderosa pine</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/lit_notes/2003_pinus_ponderosa_var_brachyptera_southwestern_ponderosa_pine_rocky_mountain/" />
+    <title>Silverspot Elevation Analysis</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/" />
+    <updated>2025-09-09T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/</id>
+    <content type="html">&lt;p&gt;There has been a bit of debate about where silverspot butterflies could
+occur on the Columbine Ranger District. Colonies are known to occur up
+to 8,300 feet but one individual was seen at 9,300 feet. The FWS wants
+us to survey butterflies up to 9,300 feet, but we are skeptical that
+they would occur so high given that there are no colonies known from
+higher than 8,300 feet.&lt;/p&gt;
+&lt;p&gt;Here I look at the elevation ranges of &lt;em&gt;Speyeria nokomis&lt;/em&gt; to inform
+elevation ranges of &lt;em&gt;Speyeria nokomis nokomis&lt;/em&gt; using citizen science
+data from GBIF (“GBIF: The Global Biodiversity Information Facility”
+2024) data using the rgbif package(Chamberlain, Oldoni, and Waller
+2012).&lt;/p&gt;
+&lt;p&gt;List of 136
+$ line                            :List of 6
+..$ colour       : chr &amp;quot;black&amp;quot;
+..$ linewidth    : num 0.5
+..$ linetype     : num 1
+..$ lineend      : chr &amp;quot;butt&amp;quot;
+..$ arrow        : logi FALSE
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_line&amp;quot; &amp;quot;element&amp;quot;
+$ rect                            :List of 5
+..$ fill         : chr &amp;quot;white&amp;quot;
+..$ colour       : chr &amp;quot;black&amp;quot;
+..$ linewidth    : num 0.5
+..$ linetype     : num 1
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_rect&amp;quot; &amp;quot;element&amp;quot;
+$ text                            :List of 11
+..$ family       : chr &amp;quot;Fira Code&amp;quot;
+..$ face         : chr &amp;quot;plain&amp;quot;
+..$ colour       : chr &amp;quot;black&amp;quot;
+..$ size         : num 11
+..$ hjust        : num 0.5
+..$ vjust        : num 0.5
+..$ angle        : num 0
+..$ lineheight   : num 0.9
+..$ margin       : &#39;margin&#39; num [1:4] 0points 0points 0points 0points
+.. ..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : logi FALSE
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ title                           : NULL
+$ aspect.ratio                    : NULL
+$ axis.title                      : NULL
+$ axis.title.x                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 2.75points 0points 0points 0points
+.. ..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.title.x.top                :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 0
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 0points 2.75points 0points
+.. ..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.title.x.bottom             : NULL
+$ axis.title.y                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : num 90
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 2.75points 0points 0points
+.. ..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.title.y.left               : NULL
+$ axis.title.y.right              :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : num -90
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 0points 0points 2.75points
+.. ..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text                       :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : chr &amp;quot;grey30&amp;quot;
+..$ size         : &#39;rel&#39; num 0.8
+..$ hjust        : NULL
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text.x                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 2.2points 0points 0points 0points
+.. ..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text.x.top                 :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 0
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 0points 2.2points 0points
+.. ..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text.x.bottom              : NULL
+$ axis.text.y                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 1
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 2.2points 0points 0points
+.. ..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text.y.left                : NULL
+$ axis.text.y.right               :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 0points 0points 2.2points
+.. ..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.text.theta                 : NULL
+$ axis.text.r                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0.5
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : &#39;margin&#39; num [1:4] 0points 2.2points 0points 2.2points
+.. ..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ axis.ticks                      : list()
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_blank&amp;quot; &amp;quot;element&amp;quot;
+$ axis.ticks.x                    : NULL
+$ axis.ticks.x.top                : NULL
+$ axis.ticks.x.bottom             : NULL
+$ axis.ticks.y                    : NULL
+$ axis.ticks.y.left               : NULL
+$ axis.ticks.y.right              : NULL
+$ axis.ticks.theta                : NULL
+$ axis.ticks.r                    : NULL
+$ axis.minor.ticks.x.top          : NULL
+$ axis.minor.ticks.x.bottom       : NULL
+$ axis.minor.ticks.y.left         : NULL
+$ axis.minor.ticks.y.right        : NULL
+$ axis.minor.ticks.theta          : NULL
+$ axis.minor.ticks.r              : NULL
+$ axis.ticks.length               : &#39;simpleUnit&#39; num 2.75points
+..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+$ axis.ticks.length.x             : NULL
+$ axis.ticks.length.x.top         : NULL
+$ axis.ticks.length.x.bottom      : NULL
+$ axis.ticks.length.y             : NULL
+$ axis.ticks.length.y.left        : NULL
+$ axis.ticks.length.y.right       : NULL
+$ axis.ticks.length.theta         : NULL
+$ axis.ticks.length.r             : NULL
+$ axis.minor.ticks.length         : &#39;rel&#39; num 0.75
+$ axis.minor.ticks.length.x       : NULL
+$ axis.minor.ticks.length.x.top   : NULL
+$ axis.minor.ticks.length.x.bottom: NULL
+$ axis.minor.ticks.length.y       : NULL
+$ axis.minor.ticks.length.y.left  : NULL
+$ axis.minor.ticks.length.y.right : NULL
+$ axis.minor.ticks.length.theta   : NULL
+$ axis.minor.ticks.length.r       : NULL
+$ axis.line                       : list()
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_blank&amp;quot; &amp;quot;element&amp;quot;
+$ axis.line.x                     : NULL
+$ axis.line.x.top                 : NULL
+$ axis.line.x.bottom              : NULL
+$ axis.line.y                     : NULL
+$ axis.line.y.left                : NULL
+$ axis.line.y.right               : NULL
+$ axis.line.theta                 : NULL
+$ axis.line.r                     : NULL
+$ legend.background               : list()
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_blank&amp;quot; &amp;quot;element&amp;quot;
+$ legend.margin                   : &#39;margin&#39; num [1:4] 5.5points 5.5points 5.5points 5.5points
+..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+$ legend.spacing                  : &#39;simpleUnit&#39; num 11points
+..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+$ legend.spacing.x                : NULL
+$ legend.spacing.y                : NULL
+$ legend.key                      : list()
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_blank&amp;quot; &amp;quot;element&amp;quot;
+$ legend.key.size                 : &#39;simpleUnit&#39; num 1.2lines
+..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 3
+$ legend.key.height               : NULL
+$ legend.key.width                : NULL
+$ legend.key.spacing              : &#39;simpleUnit&#39; num 5.5points
+..- attr(&lt;/em&gt;, &amp;quot;unit&amp;quot;)= int 8
+$ legend.key.spacing.x            : NULL
+$ legend.key.spacing.y            : NULL
+$ legend.frame                    : NULL
+$ legend.ticks                    : NULL
+$ legend.ticks.length             : &#39;rel&#39; num 0.2
+$ legend.axis.line                : NULL
+$ legend.text                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : &#39;rel&#39; num 0.8
+..$ hjust        : NULL
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ legend.text.position            : NULL
+$ legend.title                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_text&amp;quot; &amp;quot;element&amp;quot;
+$ legend.title.position           : NULL
+$ legend.position                 : chr &amp;quot;right&amp;quot;
+$ legend.position.inside          : NULL
+$ legend.direction                : NULL
+$ legend.byrow                    : NULL
+$ legend.justification            : chr &amp;quot;center&amp;quot;
+$ legend.justification.top        : NULL
+$ legend.justification.bottom     : NULL
+$ legend.justification.left       : NULL
+$ legend.justification.right      : NULL
+$ legend.justification.inside     : NULL
+$ legend.location                 : NULL
+$ legend.box                      : NULL
+$ legend.box.just                 : NULL
+$ legend.box.margin               : &#39;margin&#39; num [1:4] 0cm 0cm 0cm 0cm
+..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 1
+$ legend.box.background           : list()
+..- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;element_blank&amp;quot; &amp;quot;element&amp;quot;
+$ legend.box.spacing              : &#39;simpleUnit&#39; num 11points
+..- attr(&lt;em&gt;, &amp;quot;unit&amp;quot;)= int 8
+[list output truncated]
+- attr(&lt;/em&gt;, &amp;quot;class&amp;quot;)= chr [1:2] &amp;quot;theme&amp;quot; &amp;quot;gg&amp;quot;
+- attr(&lt;em&gt;, &amp;quot;complete&amp;quot;)= logi TRUE
+- attr(&lt;/em&gt;, &amp;quot;validate&amp;quot;)= logi TRUE&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;So it looks like there are observations from 0 to 12,000 feet. However,
+the vast majority of the observations are from about 9,200 feet to 4,500
+feet. I noticed that a lot of points are old that are from unusual
+elevations. Let me filter out very old observations, keeping anything
+since the year 2010. These points are more likely to have accurate
+location data.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;There are fewer occurrences at very high elevations (i.e. &amp;gt;11,000 feet)
+but there is nothing here that demonstrates that they could not be found
+up to 9,300 feet.&lt;/p&gt;
+&lt;p&gt;I want to double check that the high elevation occurrences are not
+associated with lower latitudes so let’s map these out.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;It does there are high elevation occurances both in Colorado and Mexico
+so Latitude doesn’t have that much to do with it.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;After this analysis, I think there is reasonable evidence to suggest
+that &lt;em&gt;Speyeria nokomis nokomis&lt;/em&gt; could occur up to 9,300 feet in
+elevation. While I don’t think that it is unlikely that we will find
+butterflies above 8,300 feet it appears, from this analysis, that it
+could happen.&lt;/p&gt;
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+&lt;div id=&quot;refs&quot; class=&quot;references csl-bib-body hanging-indent&quot; entry-spacing=&quot;0&quot;&gt;
+&lt;div id=&quot;ref-chamberlainRgbifInterfaceGlobal2012&quot; class=&quot;csl-entry&quot;&gt;
+&lt;p&gt;Chamberlain, Scott, Damiano Oldoni, and John Waller. 2012. “Rgbif:
+Interface to the Global Biodiversity Information Facility API.”
+&lt;a href=&quot;https://doi.org/10.32614/CRAN.package.rgbif&quot;&gt;https://doi.org/10.32614/CRAN.package.rgbif&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&quot;ref-GBIFGlobalBiodiversity2024&quot; class=&quot;csl-entry&quot;&gt;
+&lt;p&gt;“GBIF: The Global Biodiversity Information Facility.” 2024.
+&lt;a href=&quot;https://www.gbif.org/what-is-gbif&quot;&gt;https://www.gbif.org/what-is-gbif&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Notes on the Ponderosa Pine Ecosystem</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/" />
     <updated>2025-08-26T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/lit_notes/2003_pinus_ponderosa_var_brachyptera_southwestern_ponderosa_pine_rocky_mountain/</id>
-    <content type="html">&lt;p&gt;Article available on the &lt;a href=&quot;https://research.fs.usda.gov/feis/species-reviews/pinpons&quot;&gt;Fire Effects Information System&lt;/a&gt;&lt;/p&gt;
+    <id>https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/</id>
+    <content type="html">&lt;p&gt;This note contains notes on ponderosa pine (&lt;em&gt;Pinus ponderosa&lt;/em&gt;) management from various research papers I&#39;ve read.
+Article available on the &lt;a href=&quot;https://research.fs.usda.gov/feis/species-reviews/pinpons&quot;&gt;Fire Effects Information System&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;pinus-ponderosa-var-brachyptera-p-p-var-scopulorum-southwestern-ponderosa-pine-rocky-mountain-ponderosa-pine&quot;&gt;Pinus ponderosa var. brachyptera, P. p. var. scopulorum, southwestern ponderosa pine, Rocky Mountain ponderosa pine&lt;/h1&gt;
 &lt;h2 id=&quot;large-stand-replacing-fires-always-occurred&quot;&gt;Large Stand Replacing Fires Always Occurred.&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;quot;It may be helpful for public education programs on fire hazard reduction to emphasize that although frequent surface fires were most common in ponderosa pine stands, mixed and stand-replacement fires did occur in prehistoric times, and that during years of high fire hazard, stand-replacement fires may occur again despite fuels reduction programs&amp;quot;&lt;/em&gt;&lt;/p&gt;
@@ -28,6 +377,30 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;fire-return-interval&quot;&gt;Fire Return Interval&lt;/h2&gt;
 &lt;p&gt;Fire return interval averages ~21 years. Large fire occurrence occurred every ~41 years.&lt;/p&gt;
+&lt;h1 id=&quot;changes-in-forest-structure-since-1860-in-ponderosa-pine-dominated-forests-in-the-colorado-and-wyoming-front-range-usa&quot;&gt;Changes in forest structure since 1860 in ponderosa pine dominated forests in the Colorado and Wyoming Front Range, USA&lt;/h1&gt;
+&lt;p&gt;Citation:&lt;/p&gt;
+&lt;p&gt;Battaglia, M. A., Gannon, B., Brown, P. M., Fornwalt, P. J., Cheng, A. S., &amp;amp; Huckaby, L. S. (2018). Changes in forest structure since 1860 in ponderosa pine dominated forests in the Colorado and Wyoming Front Range, USA. Forest Ecology and Management, 422, 147–160. https://doi.org/10.1016/j.foreco.2018.04.010&lt;/p&gt;
+&lt;p&gt;Looked at lower and upper montane zones.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lower: 1662–2601 m (5450-8533 ft)&lt;/li&gt;
+&lt;li&gt;Upper: 2302–2838 m (7550-9300 ft)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;general-notes&quot;&gt;General notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Density increased more than basal area, meaning the number of trees has increased more then actual amount of wood on the landscape. The amount of wood has actually decreased.&lt;/li&gt;
+&lt;li&gt;Front range forests are generally less dense than forests in the southwest. I kind of wonder if this had anything to do with populations at the time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;lower-montane-metrics-of-note&quot;&gt;Lower Montane Metrics of note&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;80% of historic basal areas &amp;lt; 10 m^2/ha (43.6 ft^2/ac), current is 15% &amp;lt; 10 m^2/ha&lt;/li&gt;
+&lt;li&gt;15% of plots had quadratic mean diameter (QMD) &amp;gt; 35cm, now none did.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a1oosd274gj&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-battagliaChangesForestStructure2018&quot; class=&quot;reference&quot; id=&quot;ref-bib-battagliaChangesForestStructure2018-a1oosd274gj&quot;&gt;Battaglia et al., 2018&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;restoring-composition-and-structure-in-southwestern-frequent-fire-forests-a-science-based-framework-for-improving-ecosystem-resiliancy&quot;&gt;Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliancy.&lt;/h1&gt;
+&lt;p&gt;Citation:
+Reynolds, R. T., Sanchez Meador, A. J., Youtz, J. A., Nicolet, T., Matonis, M. S., Jackson, P. L., DeLorenzo, D. G., &amp;amp; Graves, A. D. (2013). Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliency (No. RMRS-GTR-310; p. RMRS-GTR-310). U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RMRS-GTR-310&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a15akbdchet&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-reynoldsRestoringCompositionStructure2013&quot; class=&quot;reference&quot; id=&quot;ref-bib-reynoldsRestoringCompositionStructure2013-a15akbdchet&quot;&gt;Reynolds et al., 2013&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 </content>
   </entry>
   <entry>
@@ -1169,76 +1542,6 @@ these checks.&lt;/p&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.avif 713w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.webp 713w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/lit_notes/2024_squires_et_al_Anthropogenically_protected_but_naturally_disturbed_a_specialist_carnivore_at_its_sourthern_range_periphery/Ojb19_pS8m-713.png&quot; alt=&quot;Disturbance numbers by habitat category&quot; width=&quot;713&quot; height=&quot;369&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 &lt;p&gt;Squires, J. R., Olson, L. E., Ivan, J. S., McDonald, P. M., &amp;amp; Holbrook, J. D. (2024). Anthropogenically protected but naturally disturbed: A specialist carnivore at its southern range periphery. Biodiversity and Conservation. https://doi.org/10.1007/s10531-024-02978-8&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Weminuche Bighorn Sheep (RBS-20)</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/" />
-    <updated>2023-04-28T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/</id>
-    <content type="html">&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Population Estimate (in DAU Plan 2012): 460 (200 in S-15, 135 in S-16,
-and 125 in S28) (CPW 2012)&lt;/li&gt;
-&lt;li&gt;Population Estimate 2022: 395, a decrease of 17% from 2012 (180 in
-S15, 135 in S16, 80 in S28). The largest decrease was in S-28
-(Vallecito), a decrease of 36%.&lt;/li&gt;
-&lt;li&gt;Population Estimate in 2023: Decreased!!
-&lt;ul&gt;
-&lt;li&gt;S28 - 50 (was 80)&lt;/li&gt;
-&lt;li&gt;S16 - 100 (was 135)&lt;/li&gt;
-&lt;li&gt;S15 - 140 (was 180)&lt;/li&gt;
-&lt;li&gt;Total - 290 (was 395 [26% reduction])&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Statewide 6,900.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;conservation-status-notes&quot;&gt;Conservation Status Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://cpw.state.co.us/Documents/WildlifeSpecies/SWAP/CO_SWAP_FULLVERSION.pdf&quot;&gt;CPW Statewide Action
-Plan&lt;/a&gt;:
-Tier 2&lt;/li&gt;
-&lt;li&gt;Forest Service:
-&lt;a href=&quot;https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5318798.pdf&quot;&gt;Sensitive&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;BLM Colorado: Sensitive&lt;/li&gt;
-&lt;li&gt;CPW Satus: &lt;strong&gt;Tier 1 Herd&lt;/strong&gt; (A Primary Population). Tier 1 herds: “are
-regarded as those large (i.e., ≥100 animals for ≥90% of the years
-since 1986), native populations comprised of one or more
-interconnected herds (in, or to be designated into, GMUs) that have
-received few (i.e., ≤50 animals total) if any supplemental releases of
-Rocky Mountain bighorn sheep in the past. Tier 1 populations should be
-given the highest priority for inventory, habitat protection and
-improvement, disease prevention, and research.” (CPW 2021)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://explorer.natureserve.org/Taxon/ELEMENT_GLOBAL.2.102557/Ovis_canadensis&quot;&gt;Nature Serve:
-Worldwide&lt;/a&gt;
-= G4 (Apparently Secure), Colorado = S4 (Apprently Secure)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;history&quot;&gt;History&lt;/h2&gt;
-&lt;p&gt;Excerpts from CPW DAU Plan:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;1911 - “Forest Ranger E. E. Chapson, of Pagosa Springs, says that a
-good many sheep are killed by snowslides in the San Juan Mountains
-north of that point.”&lt;/li&gt;
-&lt;li&gt;“In 1962 Moser documented locations occupied by bighorn sheep
-representing a large geographical area within the San Juan Mountains.
-This included Cimarron Peak, South River Peak, Weminuche Creek,
-Grenadier Range, Sunshine Peak, and Engineer Mountain”&lt;/li&gt;
-&lt;li&gt;“By 1973 the range of bighorn sheep had decreased significantly from
-historic occurrence. Summer range consisted of three main areas. The
-first was the country north of Wolf Creek Pass to Table Mountain and
-west to Beaver Creek. The second area included the headwaters of
-Weminuche, Cimarrona, Hossick, and Williams Creeks. And the third was
-the region between the Los Pinos River and Vallecito Creek north to
-Rock Creek (Bear and Jones 1973). The western areas, past Vallecito
-Creek, were no longer presented as occupied habitat.”&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/IlTn4ZFg6p-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.avif 672w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.webp 672w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/bighorn-sheep-sjnf/ZpBAUkoux4-672.png&quot; alt=&quot;&quot; width=&quot;672&quot; height=&quot;480&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;h2 id=&quot;collaring-and-disease-study&quot;&gt;Collaring and Disease Study&lt;/h2&gt;
-&lt;h3 id=&quot;collaring-effort&quot;&gt;Collaring Effort&lt;/h3&gt;
-&lt;h2 id=&quot;todo&quot;&gt;Todo&lt;/h2&gt;
-&lt;p&gt;[ ] - Need to look in more detail the observations that overlap with
-non-vacant allotments. [ ] - add active allotments in Silverton.&lt;/p&gt;
 </content>
   </entry>
 </feed>

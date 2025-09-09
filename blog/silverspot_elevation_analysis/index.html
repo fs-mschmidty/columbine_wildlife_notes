@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Silverspot Elevation Analysis</title>
+		<meta name="description" content="These are Mike Schmidt&#39;s notes for the Columbine Ranger District.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Columbine Wildlife Notes">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace:
+		Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console,
+		Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono,
+		Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #c0c0c0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #082840;
+	--text-color-link-active: #5f2b48;
+	--text-color-link-visited: #17050f;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #c0c0c0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img {
+	max-width: 100%;
+}
+img[width][height] {
+	height: auto;
+}
+img[src$=".svg"] {
+	width: 100%;
+	height: auto;
+	max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: 0.5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th,
+caption {
+	text-align: start;
+}
+
+caption {
+	margin-block: 0.75rem;
+}
+
+thead th:not(:first-child),
+td {
+	text-align: end;
+}
+
+th,
+td {
+	border: 1px solid;
+}
+
+thead {
+	border-block-end: 2px solid;
+	background: whitesmoke;
+}
+
+tfoot {
+	border-block: 2px solid;
+	background: whitesmoke;
+}
+
+th,
+td {
+	border: 1px solid lightgrey;
+	padding: 0.25rem 0.75rem;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: 0.5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em 0.5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: 0.25em;
+	padding-right: 0.5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Citations */
+
+.references dd {
+	margin-bottom: 1rem;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/columbine_wildlife_notes/" class="home-link">Columbine Wildlife Notes</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/columbine_wildlife_notes/">Home</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/about/">About</a></li>
+					<li class="nav-item"><a href="/columbine_wildlife_notes/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="silverspot-elevation-analysis">Silverspot Elevation Analysis</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-09-09">09 September 2025</time></li>
+	<li><a href="/columbine_wildlife_notes/tags/silverspot/" class="post-tag">Silverspot</a></li>
+</ul>
+
+<p>There has been a bit of debate about where silverspot butterflies could
+occur on the Columbine Ranger District. Colonies are known to occur up
+to 8,300 feet but one individual was seen at 9,300 feet. The FWS wants
+us to survey butterflies up to 9,300 feet, but we are skeptical that
+they would occur so high given that there are no colonies known from
+higher than 8,300 feet.</p>
+<p>Here I look at the elevation ranges of <em>Speyeria nokomis</em> to inform
+elevation ranges of <em>Speyeria nokomis nokomis</em> using citizen science
+data from GBIF (“GBIF: The Global Biodiversity Information Facility”
+2024) data using the rgbif package(Chamberlain, Oldoni, and Waller
+2012).</p>
+<p>List of 136
+$ line                            :List of 6
+..$ colour       : chr &quot;black&quot;
+..$ linewidth    : num 0.5
+..$ linetype     : num 1
+..$ lineend      : chr &quot;butt&quot;
+..$ arrow        : logi FALSE
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_line&quot; &quot;element&quot;
+$ rect                            :List of 5
+..$ fill         : chr &quot;white&quot;
+..$ colour       : chr &quot;black&quot;
+..$ linewidth    : num 0.5
+..$ linetype     : num 1
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_rect&quot; &quot;element&quot;
+$ text                            :List of 11
+..$ family       : chr &quot;Fira Code&quot;
+..$ face         : chr &quot;plain&quot;
+..$ colour       : chr &quot;black&quot;
+..$ size         : num 11
+..$ hjust        : num 0.5
+..$ vjust        : num 0.5
+..$ angle        : num 0
+..$ lineheight   : num 0.9
+..$ margin       : 'margin' num [1:4] 0points 0points 0points 0points
+.. ..- attr(<em>, &quot;unit&quot;)= int 8
+..$ debug        : logi FALSE
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ title                           : NULL
+$ aspect.ratio                    : NULL
+$ axis.title                      : NULL
+$ axis.title.x                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 2.75points 0points 0points 0points
+.. ..- attr(<em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.title.x.top                :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 0
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 0points 2.75points 0points
+.. ..- attr(<em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.title.x.bottom             : NULL
+$ axis.title.y                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : num 90
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 2.75points 0points 0points
+.. ..- attr(<em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.title.y.left               : NULL
+$ axis.title.y.right              :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : num -90
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 0points 0points 2.75points
+.. ..- attr(<em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text                       :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : chr &quot;grey30&quot;
+..$ size         : 'rel' num 0.8
+..$ hjust        : NULL
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text.x                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 1
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 2.2points 0points 0points 0points
+.. ..- attr(</em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text.x.top                 :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : NULL
+..$ vjust        : num 0
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 0points 2.2points 0points
+.. ..- attr(</em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text.x.bottom              : NULL
+$ axis.text.y                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 1
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 2.2points 0points 0points
+.. ..- attr(</em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text.y.left                : NULL
+$ axis.text.y.right               :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 0points 0points 2.2points
+.. ..- attr(</em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.text.theta                 : NULL
+$ axis.text.r                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0.5
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : 'margin' num [1:4] 0points 2.2points 0points 2.2points
+.. ..- attr(</em>, &quot;unit&quot;)= int 8
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ axis.ticks                      : list()
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_blank&quot; &quot;element&quot;
+$ axis.ticks.x                    : NULL
+$ axis.ticks.x.top                : NULL
+$ axis.ticks.x.bottom             : NULL
+$ axis.ticks.y                    : NULL
+$ axis.ticks.y.left               : NULL
+$ axis.ticks.y.right              : NULL
+$ axis.ticks.theta                : NULL
+$ axis.ticks.r                    : NULL
+$ axis.minor.ticks.x.top          : NULL
+$ axis.minor.ticks.x.bottom       : NULL
+$ axis.minor.ticks.y.left         : NULL
+$ axis.minor.ticks.y.right        : NULL
+$ axis.minor.ticks.theta          : NULL
+$ axis.minor.ticks.r              : NULL
+$ axis.ticks.length               : 'simpleUnit' num 2.75points
+..- attr(<em>, &quot;unit&quot;)= int 8
+$ axis.ticks.length.x             : NULL
+$ axis.ticks.length.x.top         : NULL
+$ axis.ticks.length.x.bottom      : NULL
+$ axis.ticks.length.y             : NULL
+$ axis.ticks.length.y.left        : NULL
+$ axis.ticks.length.y.right       : NULL
+$ axis.ticks.length.theta         : NULL
+$ axis.ticks.length.r             : NULL
+$ axis.minor.ticks.length         : 'rel' num 0.75
+$ axis.minor.ticks.length.x       : NULL
+$ axis.minor.ticks.length.x.top   : NULL
+$ axis.minor.ticks.length.x.bottom: NULL
+$ axis.minor.ticks.length.y       : NULL
+$ axis.minor.ticks.length.y.left  : NULL
+$ axis.minor.ticks.length.y.right : NULL
+$ axis.minor.ticks.length.theta   : NULL
+$ axis.minor.ticks.length.r       : NULL
+$ axis.line                       : list()
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_blank&quot; &quot;element&quot;
+$ axis.line.x                     : NULL
+$ axis.line.x.top                 : NULL
+$ axis.line.x.bottom              : NULL
+$ axis.line.y                     : NULL
+$ axis.line.y.left                : NULL
+$ axis.line.y.right               : NULL
+$ axis.line.theta                 : NULL
+$ axis.line.r                     : NULL
+$ legend.background               : list()
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_blank&quot; &quot;element&quot;
+$ legend.margin                   : 'margin' num [1:4] 5.5points 5.5points 5.5points 5.5points
+..- attr(</em>, &quot;unit&quot;)= int 8
+$ legend.spacing                  : 'simpleUnit' num 11points
+..- attr(<em>, &quot;unit&quot;)= int 8
+$ legend.spacing.x                : NULL
+$ legend.spacing.y                : NULL
+$ legend.key                      : list()
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_blank&quot; &quot;element&quot;
+$ legend.key.size                 : 'simpleUnit' num 1.2lines
+..- attr(<em>, &quot;unit&quot;)= int 3
+$ legend.key.height               : NULL
+$ legend.key.width                : NULL
+$ legend.key.spacing              : 'simpleUnit' num 5.5points
+..- attr(</em>, &quot;unit&quot;)= int 8
+$ legend.key.spacing.x            : NULL
+$ legend.key.spacing.y            : NULL
+$ legend.frame                    : NULL
+$ legend.ticks                    : NULL
+$ legend.ticks.length             : 'rel' num 0.2
+$ legend.axis.line                : NULL
+$ legend.text                     :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : 'rel' num 0.8
+..$ hjust        : NULL
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(<em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ legend.text.position            : NULL
+$ legend.title                    :List of 11
+..$ family       : NULL
+..$ face         : NULL
+..$ colour       : NULL
+..$ size         : NULL
+..$ hjust        : num 0
+..$ vjust        : NULL
+..$ angle        : NULL
+..$ lineheight   : NULL
+..$ margin       : NULL
+..$ debug        : NULL
+..$ inherit.blank: logi TRUE
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_text&quot; &quot;element&quot;
+$ legend.title.position           : NULL
+$ legend.position                 : chr &quot;right&quot;
+$ legend.position.inside          : NULL
+$ legend.direction                : NULL
+$ legend.byrow                    : NULL
+$ legend.justification            : chr &quot;center&quot;
+$ legend.justification.top        : NULL
+$ legend.justification.bottom     : NULL
+$ legend.justification.left       : NULL
+$ legend.justification.right      : NULL
+$ legend.justification.inside     : NULL
+$ legend.location                 : NULL
+$ legend.box                      : NULL
+$ legend.box.just                 : NULL
+$ legend.box.margin               : 'margin' num [1:4] 0cm 0cm 0cm 0cm
+..- attr(<em>, &quot;unit&quot;)= int 1
+$ legend.box.background           : list()
+..- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;element_blank&quot; &quot;element&quot;
+$ legend.box.spacing              : 'simpleUnit' num 11points
+..- attr(<em>, &quot;unit&quot;)= int 8
+[list output truncated]
+- attr(</em>, &quot;class&quot;)= chr [1:2] &quot;theme&quot; &quot;gg&quot;
+- attr(<em>, &quot;complete&quot;)= logi TRUE
+- attr(</em>, &quot;validate&quot;)= logi TRUE</p>
+<p><picture><source type="image/avif" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.avif 672w"><source type="image/webp" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.webp 672w"><img loading="lazy" decoding="async" src="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/-kJWT3bbwA-672.png" alt="" width="672" height="480"></picture></p>
+<p>So it looks like there are observations from 0 to 12,000 feet. However,
+the vast majority of the observations are from about 9,200 feet to 4,500
+feet. I noticed that a lot of points are old that are from unusual
+elevations. Let me filter out very old observations, keeping anything
+since the year 2010. These points are more likely to have accurate
+location data.</p>
+<p><picture><source type="image/avif" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.avif 672w"><source type="image/webp" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.webp 672w"><img loading="lazy" decoding="async" src="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/f_FjuscJU8-672.png" alt="" width="672" height="480"></picture></p>
+<p>There are fewer occurrences at very high elevations (i.e. &gt;11,000 feet)
+but there is nothing here that demonstrates that they could not be found
+up to 9,300 feet.</p>
+<p>I want to double check that the high elevation occurrences are not
+associated with lower latitudes so let’s map these out.</p>
+<p><picture><source type="image/avif" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.avif 672w"><source type="image/webp" srcset="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.webp 672w"><img loading="lazy" decoding="async" src="/columbine_wildlife_notes/blog/silverspot_elevation_analysis/UoFGYoOyKM-672.png" alt="" width="672" height="480"></picture></p>
+<p>It does there are high elevation occurances both in Colorado and Mexico
+so Latitude doesn’t have that much to do with it.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>After this analysis, I think there is reasonable evidence to suggest
+that <em>Speyeria nokomis nokomis</em> could occur up to 9,300 feet in
+elevation. While I don’t think that it is unlikely that we will find
+butterflies above 8,300 feet it appears, from this analysis, that it
+could happen.</p>
+<h2 id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" entry-spacing="0">
+<div id="ref-chamberlainRgbifInterfaceGlobal2012" class="csl-entry">
+<p>Chamberlain, Scott, Damiano Oldoni, and John Waller. 2012. “Rgbif:
+Interface to the Global Biodiversity Information Facility API.”
+<a href="https://doi.org/10.32614/CRAN.package.rgbif">https://doi.org/10.32614/CRAN.package.rgbif</a>.</p>
+</div>
+<div id="ref-GBIFGlobalBiodiversity2024" class="csl-entry">
+<p>“GBIF: The Global Biodiversity Information Facility.” 2024.
+<a href="https://www.gbif.org/what-is-gbif">https://www.gbif.org/what-is-gbif</a>.</p>
+</div>
+</div>
+
+
+<h2 id="bibliography">Bibliography</h2>
+
+<dl class="references">
+	
+</dl>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/">Notes on the Ponderosa Pine Ecosystem</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
+		</footer>
+
+		<!-- This page `/blog/silverspot_elevation_analysis/` was built on 2025-09-09T20:35:45.185Z -->
+		<script type="module" src="/columbine_wildlife_notes/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
