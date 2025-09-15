@@ -29,20 +29,32 @@ library(elevatr)
 library(ggrain)
 library(rnaturalearth)
 library(ragg)
+library(ggtext)
 
-theme_set(theme_minimal(base_family = "Fira Code")) +
-  theme_update(
-    plot.title = ggtext::element_markdown(face = "bold")
-  )
+theme_set(theme_minimal(base_family = "Fira Code"))
+
+theme_update(
+  plot.title = ggtext::element_markdown(face = "bold")
+)
 ```
 
 
 ```{r}
-#| cache: true
-sn_gbif <- occ(query = "Speyeria nokomis", from = "gbif", limit = 10000)
-sn_gbif_sf <- sn_gbif$gbif$data$Speyeria_nokomis |>
-  filter(!is.na(latitude), !is.na(longitude)) |>
-  st_as_sf(crs = 4326, coords = c("longitude", "latitude"))
+# sn_gbif <- occ(query = "Speyeria nokomis", from = "gbif", limit = 10000)
+# sn_gbif_sf <- sn_gbif$gbif$data$Speyeria_nokomis |>
+#   filter(!is.na(latitude), !is.na(longitude)) |>
+#   st_as_sf(crs = 4326, coords = c("longitude", "latitude")) |>
+#   select(!where(is.list))
+#
+# st_write(
+#   sn_gbif_sf,
+#   "content/blog/silverspot_elevation_analysis/silv_gbif_data.gpkg"
+# )
+
+sn_gbif_sf <- st_read(
+  "silv_gbif_data.gpkg",
+  quiet = T
+)
 
 # mapview::mapview(select(sn_gbif_sf, where(~ !is.list(.))))
 #

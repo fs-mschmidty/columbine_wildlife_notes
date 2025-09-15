@@ -15,7 +15,7 @@ layout: layouts/base.njk
 </ul>
 
 {{ content | safe }}
-
+{% if references and references | length > 0 %}
 <h2>Bibliography</h2>
 
 <dl class="references">
@@ -24,6 +24,7 @@ layout: layouts/base.njk
 		<dd>{{ reference | bibliography_entry | safe }}</dd>
 	{% endfor %}
 </dl>
+{% endif %}
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
