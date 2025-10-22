@@ -1,0 +1,89 @@
+---
+title: FIA Ponderosa Pine Analysis
+date: 2025-09-04
+author: Mike Schmidt
+tags: ["Ecology", "Ponderosa Pine", "FIA"]
+format:
+  commonmark:
+    variant: +yaml_metadata_block
+    df-print: tibble
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+---
+
+Ponderosa pine and warm-dry mixed conifer historically experienced low severity frequent fires.  Fire has largely been absence from these systems. I've been trying to learn about these systems in hope of better managing them for wildlife.  This note will review several papers with management recommendations for ponderosa pine and will also analyze ponderosa pine on the San Juan using FIA data.
+
+
+```{r}
+library(tidyverse)
+library(sf)
+library(sjnftools)
+library(rFIA)
+library(ggrain)
+library(MetBrewer)
+
+theme_set(theme_minimal())
+```
+
+```{r}
+co <- readFIA(
+  "C:\\Users\\MichaelSchmidt2\\OneDrive - USDA\\code\\r\\test\\fia\\download"
+)
+
+sjnf <- clipFIA(
+  co,
+  mostRecent = FALSE,
+  mask = sjnf_bd
+)
+
+sjnf_species <- tpa(
+  sjnf,
+  bySpecies = T,
+  grpBy = "PLOT"
+) |>
+  janitor::clean_names()
+
+sjnf_species
+```
+
+
+```{r}
+sjnf_plots <- sjnf$PLOT |>
+  as_tibble() |>
+  janitor::clean_names() |>
+  group_by(lon, lat) |>
+  summarize(
+    n = n(),
+    max_year = max(invyr, na.rm = T),
+    min_year = min(invyr, na.rm = T)
+  ) |>
+  ungroup() |>
+  st_as_sf(coords = c("lon", "lat"), crs = 4326)
+
+mapview::mapview(sjnf_plots)
+```
+
+
+```{r}
+sjnf_species |>
+  filter(common_name == "ponderosa pine") |>
+  ggplot(aes(as.factor(year), baa, fill = as.factor(year))) +
+  geom_rain(
+    violin.args.pos = list(
+      side = "r",
+      width = 1.7,
+      position = position_nudge(x = 0.2)
+    )
+  ) +
+  coord_flip() +
+  scale_fill_manual(values = met.brewer("Renoir", 17))
+```
+
+
+
+
+
+

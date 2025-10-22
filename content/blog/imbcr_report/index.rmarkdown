@@ -1,0 +1,162 @@
+---
+title: IMBCR SJNF Report
+date: 2025-09-29
+tags: [Birds, "Status and Trends"]
+format:
+  commonmark:
+    variant: +yaml_metadata_block
+    df-print: kable
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+---
+
+```{r}
+library(tidyverse)
+library(MetBrewer)
+library(janitor)
+library(mpsgSE)
+library(gt)
+```
+
+
+
+## Birds that are likely declining
+Species on the SJNF that are likely declining have a decreasing Density Trend or Occupancy Trend and an F statistic greater than 0.8 (meaning that there is an 80 percent chance that the trend is actually happening) for the respective statistic.
+
+
+```{r}
+cl_names <- function(x) {
+  x |>
+    mutate(
+      density_f = density_f |> round(2),
+      occupancy_f = occupancy_f |> round(2)
+    ) |>
+    select(
+      Species = species,
+      "Density Trend" = density_trend,
+      "F Density" = density_f,
+      "Density CI" = density_95_percent_ci,
+      "Occupancy Trend" = occupancy_trend,
+      "F Occupancy" = occupancy_f,
+      "Occupancy CI" = occupancy_95_percent_ci,
+      "R2 Sensitive" = rfssl
+    )
+}
+data_raw <- read_csv("./TrendTable.csv") |>
+  clean_names() |>
+  filter(
+    species != "Pika",
+    !str_detect(species, "Squirr")
+  )
+
+names <- read_csv(
+  "https://www.birds.cornell.edu/clementschecklist/wp-content/uploads/2024/10/eBird-Clements-v2024-integrated-checklist-October-2024-rev.csv"
+) |>
+  clean_names() |>
+  select(english_name, scientific_name) |>
+  filter(!is.na(english_name))
+
+# data_w_tax <- data_raw |>
+#   left_join(names, by = c("species" = "english_name")) |>
+#   mutate(
+#     scientific_name = ifelse(
+#       species == "House Wren",
+#       "Troglodytes aedon",
+#       scientific_name
+#     )
+#   ) |>
+#   get_taxonomies()
+#
+# write_csv(data_w_tax, "cl_data.csv")
+
+data_w_tax <- read_csv("./cl_data.csv")
+
+r2_ss <- get_rfss_list("R2") |>
+  select(taxon_id, rfssl) |>
+  mutate(
+    taxon_id = as.character(taxon_id)
+  )
+
+data_w_rfss <- data_w_tax |>
+  mutate(
+    taxon_id = as.character(taxon_id)
+  ) |>
+  left_join(r2_ss, by = "taxon_id") |>
+  rename(species = "species.x") |>
+  mutate(
+    rfssl = ifelse(!is.na(rfssl), TRUE, FALSE)
+  )
+
+
+declining_birds <-
+  data_w_rfss |>
+  mutate(
+    is_sig = case_when(
+      density_trend < 0 & density_f > 0.8 ~ "Yes",
+      occupancy_trend < 0 & occupancy_f > 0.8 ~ "Yes",
+      TRUE ~ "No"
+    )
+  ) |>
+  filter(is_sig == "Yes") |>
+  arrange(density_trend) |>
+  cl_names()
+
+declining_birds
+```
+
+
+
+There are no sensitive species declining.
+
+## Birds that are likely increasing
+
+
+
+
+```{r}
+increasing_birds <-
+  data_w_rfss |>
+  mutate(
+    is_sig = case_when(
+      density_trend > 0 & density_f > 0.8 ~ "Yes",
+      occupancy_trend > 0 & occupancy_f > 0.8 ~ "Yes",
+      TRUE ~ "No"
+    )
+  ) |>
+  filter(is_sig == "Yes") |>
+  arrange(desc(density_trend)) |>
+  cl_names()
+
+increasing_birds
+```
+
+
+
+Pinyon Jay, Grace's Warbler,Brewer's Sparrow, and Olive sided flycatcher are on the sensitive species list and are very likely increasing. It is also good to see that far more species are increasing than are decreasing.
+
+
+## The rest
+Ranked by density F statistic. I'd say that if they don't have above a .7 F statistic I would ignore it.
+
+
+```{r}
+
+data_w_rfss |>
+  mutate(
+    is_sig = case_when(
+      density_trend > 0 & density_f > 0.8 ~ "Yes",
+      occupancy_trend > 0 & occupancy_f > 0.8 ~ "Yes",
+      density_trend < 0 & density_f > 0.8 ~ "Yes",
+      occupancy_trend < 0 & occupancy_f > 0.8 ~ "Yes",
+      TRUE ~ "No"
+    )
+  ) |>
+  filter(is_sig == "No") |>
+  arrange(desc(density_f)) |>
+  cl_names() |>
+  distinct(.keep_all = T)
+```
+
