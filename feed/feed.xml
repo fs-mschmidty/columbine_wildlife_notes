@@ -5,11 +5,355 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/columbine_wildlife_notes/feed/feed.xml" rel="self" />
   <link href="https://example.com/columbine_wildlife_notes/" />
-  <updated>2025-09-29T00:00:00Z</updated>
+  <updated>2025-11-17T23:45:33Z</updated>
   <id>https://example.com/columbine_wildlife_notes/</id>
   <author>
     <name>Michael Schmidt</name>
   </author>
+  <entry>
+    <title></title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/" />
+    <updated>2025-11-17T23:45:33Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/</id>
+    <content type="html">&lt;h1 id=&quot;term-overview&quot;&gt;Term Overview&lt;/h1&gt;
+&lt;p&gt;The primary goals for the term were to survey timber sales for raptor nests, complete annual aberts surveys, and map sensitive species habitat and distribution around project areas.&lt;/p&gt;
+&lt;h2 id=&quot;raptor-surveys&quot;&gt;Raptor Surveys&lt;/h2&gt;
+&lt;p&gt;We surveyed two ponderosa pine forest timber sale areas to ensure no nests would be disrupted.&lt;/p&gt;
+&lt;h3 id=&quot;junction-creek&quot;&gt;Junction Creek&lt;/h3&gt;
+&lt;p&gt;Over several weeks we surveyed 22 timber units, performing broadcast acoustic surveys at 179 survey points. Although no nests were found, several raptors were observed including a peregrine falcon (known nest on falls creek cliff face), a juvenile golden eagle, several coopers hawks, and many red tailed hawks.&lt;/p&gt;
+&lt;h3 id=&quot;aberts-squirrel-survey&quot;&gt;Abert&#39;s Squirrel Survey&lt;/h3&gt;
+&lt;p&gt;Over several visits inturrupted by hail and lightning storms, we completed an annual Abert&#39;s survey at Dry Fork.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2025 WIT Reporting</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/2025/2025_wit_reporting/" />
+    <updated>2025-11-14T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/2025/2025_wit_reporting/</id>
+    <content type="html">&lt;p&gt;For FY 25 this is an explanation of WIT reporting and sources.&lt;/p&gt;
+&lt;h2 id=&quot;rx-fires-on-crd&quot;&gt;RX Fires on CRD&lt;/h2&gt;
+&lt;p&gt;RX fire activities were pulled from the FACTS database.&lt;/p&gt;
+&lt;table style=&quot;width:100%;&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 7%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 3%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 22%&quot;&gt;
+&lt;col style=&quot;width: 15%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;col style=&quot;width: 10%&quot;&gt;
+&lt;col style=&quot;width: 3%&quot;&gt;
+&lt;col style=&quot;width: 3%&quot;&gt;
+&lt;col style=&quot;width: 5%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;TREATMENT_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;ACTIVITY_UNIT_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;GIS_ACRES&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;ACTIVITY&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;NEPA_DOC_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT_NBR&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT_TYPE&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;EQUIPMENT&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;FUND_CODE&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;METHOD&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Baldy Mtn. Pile RX U2&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;BALDY MNT UNIT TWO&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;37.000&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Burning of Piled Material&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)BALDY MOUNTAIN VEGETATION MANAGEMENT
+PROJECT&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Drip torch&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;WFSE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Prescribed Burn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Baldy Mtn Pile RX U3&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;BALDY MNT UNIT THREE&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;41.318&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Burning of Piled Material&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)BALDY MOUNTAIN VEGETATION MANAGEMENT
+PROJECT&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Drip torch&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;WFSE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Prescribed Burn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Fosset Gulch Pile RX&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHERN HD’S RX&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;16.649&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Burning of Piled Material&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)SOUTHERN HDS LANDSCAPE RESTORATION
+PROJECT&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Drip torch&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;WFSE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Prescribed Burn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Sauls Creek Pile RX&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FOSSET GULCH/NORTHERN HDS&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;49.114&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Burning of Piled Material&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)FOSSET GULCH/NORTHERN HDS ECOSYSTEM
+RESTORATION PROJECT&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Drip torch&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;WFSE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Prescribed Burn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Baldy Mtn Pile RX U4&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;BALDY MNT UNIT FOUR&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;39.408&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Burning of Piled Material&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)BALDY MOUNTAIN VEGETATION MANAGEMENT
+PROJECT&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Drip torch&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;WFSE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Prescribed Burn&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;mechanical-treatments&quot;&gt;Mechanical Treatments&lt;/h2&gt;
+&lt;p&gt;Mechanical Treatments were also pulled from FACTS.&lt;/p&gt;
+&lt;table style=&quot;width:100%;&quot;&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 5%&quot;&gt;
+&lt;col style=&quot;width: 8%&quot;&gt;
+&lt;col style=&quot;width: 3%&quot;&gt;
+&lt;col style=&quot;width: 5%&quot;&gt;
+&lt;col style=&quot;width: 24%&quot;&gt;
+&lt;col style=&quot;width: 15%&quot;&gt;
+&lt;col style=&quot;width: 10%&quot;&gt;
+&lt;col style=&quot;width: 10%&quot;&gt;
+&lt;col style=&quot;width: 6%&quot;&gt;
+&lt;col style=&quot;width: 3%&quot;&gt;
+&lt;col style=&quot;width: 5%&quot;&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;TREATMENT_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;ACTIVITY_UNIT_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;GIS_ACRES&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;ACTIVITY&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;NEPA_DOC_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT_NBR&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;IMPLEMENTATION_PROJECT_TYPE&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;EQUIPMENT&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;FUND_CODE&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;METHOD&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT ONE&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;45.311&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT TWO&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;147.060&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT FOUR&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;111.705&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT FIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;108.054&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT THREE&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;83.865&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NA&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;FIRST NOTCH UNIT SIX&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;72.281&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Improvement Cut&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)VALLECITO-PIEDRA INTEGRATED
+VEGETATION MANAGEMENT PROJECT.&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;SOUTHWEST COLORADO RESTORATION
+INITIATIVE&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLR026&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CFLRP&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor logging&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;IRVM&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Tractor Logging&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;We completed 568 acres of mechanical treatment in 2025. These acres will
+may not count toward WIT because we only consider treatments in
+ponderosa pine that seek to create openings, clumps and groups as
+wildlife treatments. Treatments that strictly seek to meet a basal area,
+while effective for fuels mitigation, do very little to improve or
+maintain habitat for wildlife and therefore are not counted.&lt;/p&gt;
+&lt;p&gt;We have one more treatment, Turkey Springs, that has not been added to
+FACTS yet and I was not able to pull into this report.&lt;/p&gt;
+&lt;h2 id=&quot;weed-treatments&quot;&gt;Weed Treatments&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;FISCAL_YEAR_COMPLETED&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;n&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2021&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;46&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2022&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2023&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2024&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;51&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Species Manual</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/cit_sci/species_manual/" />
+    <updated>2025-10-26T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/cit_sci/species_manual/</id>
+    <content type="html">&lt;p&gt;test 1&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>CitSci Project Overview</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/" />
+    <updated>2025-10-26T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/</id>
+    <content type="html">&lt;h1 id=&quot;forest-service-most-wanted-wildlife&quot;&gt;Forest Service Most Wanted Wildlife&lt;/h1&gt;
+&lt;h2 id=&quot;citizen-science-monitoring-southwest-conservation-corps&quot;&gt;Citizen Science Monitoring -  &lt;em&gt;Southwest Conservation Corps&lt;/em&gt;&lt;/h2&gt;
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Public lands are crucial in connecting citizens with natural resources, fostering resilient ecosystems, and maintaining biodiversity. The US Forest Service works to maintain these public resources through land use programs, regulated recreation, and land management, among other things. Together these programs aim to maintain sustainable land use and improve ecosystem functions in a dynamic landscape.&lt;/p&gt;
+&lt;p&gt;In creating and enacting a holistic land management plan, it is crucial for management actions to be driven by data about native species and ecosystems. In order to understand how species are impacted by management and maximize benefits to critical flora and fauna, the Wildlife department of the San Juan National Forest works to collect data on a number of sensitive species. They focus on establishing distribution and long term trends in protected species and species whose habitat is widespread in the forest.&lt;/p&gt;
+&lt;p&gt;However, due to limited personnel in the wildlife department, having additional sources for wildlife data could be highly beneficial in creating well-informed habitat management decisions for a broader array of species. Citizen science data on sensitive species in the park could serve to both supplement Forest Service monitoring efforts and begin to establish baseline distributions for understudied species.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/vd18ipST3o-1166.avif 1166w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/vd18ipST3o-1166.webp 1166w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/vd18ipST3o-1166.png&quot; alt=&quot;Milkweed, Raptor, and Abert&#39;s squirrel monitoring&quot; width=&quot;1166&quot; height=&quot;329&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;San Juan Forest Service Monitoring Efforts. Left: Milkweed recorded during inventory for Monarch conservation efforts. Middle: Acoustic surveys for raptors in project areas. Right: Abert’s squirrel with a ponderosa cone core used as a sign of presence for long term monitoring.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;project-lead&quot;&gt;Project Lead&lt;/h3&gt;
+&lt;p&gt;This project is led by Makenna Reilly (contact: reillymakenna@gmail.com) as part of an independent research project for Southwest Conservation Corps. Makenna works as a seasonal wildlife team member for the Columbine Ranger District of the San Juan National forest, employed through Southwest Conservation Corps. Naturalist data for this project, while collected independently, will be shared with the Forest Service to aid in wildlife management planning and research efforts.&lt;/p&gt;
+&lt;h3 id=&quot;methods&quot;&gt;Methods&lt;/h3&gt;
+&lt;p&gt;This project aims to compile historic observations of sensitive species in the San Juan National Forest (particularly in the Columbine Ranger District) based on records from iNaturalist. Recently collected data points can be used to create focal locations for Forest Service in house inventory and monitoring. Additionally, the project will work with volunteer citizen scientists from non-governmental organizations familiar with specific taxa to expand the collection of opportunistic distribution data for uncommon or less observed species.&lt;/p&gt;
+&lt;p&gt;Volunteers will be provided a list of relevant target species, and collect evidence of species presence (photos, audio recordings, prints, etc.), adding them as observations on iNaturalist. Location data will be automatically collected, allowing observations in the forest to be identified and reviewed before being added to an arcGIS taxa specific map.&lt;/p&gt;
+&lt;p&gt;Target species for citizen science monitoring include threatened and near threatened species, as well as species protected in the Forest Service forest management plan. Additional species of interest include hosts of vulnerable species (ex. milkweed; host for monarch butterflies), obligates of major habitat types in the forest (ex. Abert&#39;s squirrel; ponderosa pine obligate) or species whose range largely overlaps with the forest districts.&lt;/p&gt;
+&lt;p&gt;Posters with species specific information about seasonality, habitat, suspected range, and identification tips will be distributed to volunteers. Posters will include links to the project overview, as well as instructions on uploading observations. Volunteers may also join the iNaturalist project “San Juan Most Wanted Species”, however this is entirely optional and is not necessary for observations to be recorded as part of the project. A preliminary list of species of interest, and an example poster are below.&lt;/p&gt;
+&lt;p&gt;Primary Species of Interest&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;Birds&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Purple Martin&lt;/li&gt;
+&lt;li&gt;Black Swift&lt;/li&gt;
+&lt;li&gt;Brewer’s Sparrow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Insects&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monarch Butterfly&lt;/li&gt;
+&lt;li&gt;Western Bumble Bee&lt;/li&gt;
+&lt;li&gt;Suckley’s Cuckoo Bumble Bee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Plants&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;All Milkweed Species&lt;/li&gt;
+&lt;li&gt;Northern Bog Violet&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Herps&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Western Boreal Toad&lt;/li&gt;
+&lt;li&gt;Northern Leopard Frog&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>IMBCR SJNF Report</title>
     <link href="https://example.com/columbine_wildlife_notes/blog/imbcr_report/" />
@@ -1459,11 +1803,11 @@ Article available on the &lt;a href=&quot;https://research.fs.usda.gov/feis/spec
 &lt;li&gt;80% of historic basal areas &amp;lt; 10 m^2/ha (43.6 ft^2/ac), current is 15% &amp;lt; 10 m^2/ha&lt;/li&gt;
 &lt;li&gt;15% of plots had quadratic mean diameter (QMD) &amp;gt; 35cm, now none did.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a6phvsuri0&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-battagliaChangesForestStructure2018&quot; class=&quot;reference&quot; id=&quot;ref-bib-battagliaChangesForestStructure2018-a6phvsuri0&quot;&gt;Battaglia et al., 2018&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a20grr9s4cv&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-battagliaChangesForestStructure2018&quot; class=&quot;reference&quot; id=&quot;ref-bib-battagliaChangesForestStructure2018-a20grr9s4cv&quot;&gt;Battaglia et al., 2018&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;restoring-composition-and-structure-in-southwestern-frequent-fire-forests-a-science-based-framework-for-improving-ecosystem-resiliancy&quot;&gt;Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliancy.&lt;/h1&gt;
 &lt;p&gt;Citation:
 Reynolds, R. T., Sanchez Meador, A. J., Youtz, J. A., Nicolet, T., Matonis, M. S., Jackson, P. L., DeLorenzo, D. G., &amp;amp; Graves, A. D. (2013). Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliency (No. RMRS-GTR-310; p. RMRS-GTR-310). U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RMRS-GTR-310&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a1p3qp1q60h&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-reynoldsRestoringCompositionStructure2013&quot; class=&quot;reference&quot; id=&quot;ref-bib-reynoldsRestoringCompositionStructure2013-a1p3qp1q60h&quot;&gt;Reynolds et al., 2013&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a290rj17uij&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-reynoldsRestoringCompositionStructure2013&quot; class=&quot;reference&quot; id=&quot;ref-bib-reynoldsRestoringCompositionStructure2013-a290rj17uij&quot;&gt;Reynolds et al., 2013&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 </content>
   </entry>
@@ -1815,779 +2159,6 @@ guide&lt;/a&gt; ### Data&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://ebird.github.io/ebirdst/&quot;&gt;ebirdst R package&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-</content>
-  </entry>
-  <entry>
-    <title>2025 NEPA Regs Notes</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/new_nepa_regs_2025/" />
-    <updated>2025-07-07T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/new_nepa_regs_2025/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-amd-1&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057720277%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=b1qWzrVI0WOLBmm0g9p2YKNJQRa8IuoozpYirCtQmfc%3D&amp;amp;reserved=0&quot;&gt;Link to New Regs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;From Laurel Glidden, San Juan NEPA Coordinator:&lt;/p&gt;
-&lt;p&gt;A quick rundown of changes we know so far:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;All USDA agency NEPA regulations, including Forest Service CE categories, can now be found at 7 CFR 1b. Emergency response information can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-998&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057749863%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=KVZcyOtkW5wijs5DNLlyLAgWMqMyzv1GIUx18N3%2F9XU%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.9(w)&lt;/a&gt; and Forest Service CE categories can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-468&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057765096%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=0CGiD2vy2OulHBX%2B2HVSwkBL9x78VnQ4Gj%2FOC9fL344%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.4(c)(19)-(c)(29)&lt;/a&gt; and &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-651&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057779007%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=mKfB2q1LvKGQOUZxvVhSQBkwgtuuYlb3lICVBDynaoc%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.4(d)(26)-(d)(47)&lt;/a&gt;. Please see the attached list for viewing changes made to emergency response and CE categories, as well as old &amp;amp; new categories.&lt;/li&gt;
-&lt;li&gt;All USDA and sub-agency CEs, including adopted CEs from other agencies, are now available to the Forest Service and all other USDA agencies. - Our list of extraordinary circumstances has changed slightly to be consistent across the USDA. The new list can be found at &lt;a href=&quot;https://gcc02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.federalregister.gov%2Fd%2F2025-12326%2Fp-288&amp;amp;data=05%7C02%7CMichael.Schmidt4%40usda.gov%7Cc80fb5b86ab645925bc208ddbd5f06b2%7Ced5b36e701ee4ebc867ee03cfa0d4697%7C1%7C0%7C638874938057792640%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&amp;amp;sdata=M0Q3ylqUL%2BunDtOBLkfz7jQ%2F7Zq7TAqhPbweM5KMwYw%3D&amp;amp;reserved=0&quot;&gt;7 CFR 1b.3(f)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Requirements for the following have been removed (NOTE: This is only as applies to NEPA and does not affect requirements from other laws, such as Endangered Species Act (ESA), Clean Water Act (CWA), National Historic Preservation Act (NHPA), etc.):
-&lt;ul&gt;
-&lt;li&gt;Scoping for Categorical Exclusions (CEs) and Environmental Assessments (EAs)&lt;/li&gt;
-&lt;li&gt;Decision Memos (CEs) and Decision Notices (EAs)
-&lt;ul&gt;
-&lt;li&gt;There are still requirements for documentation of some CE categories, same as before. The new regulations require documentation of a “finding of applicability and no extraordinary circumstance” (FANEC) and gives agencies flexibility to decide what that documentation will look like but lays out some requirements for information that must be included. This information can be found at &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-300&quot;&gt;7 CFR 1b.3(g)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Additionally, &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-758&quot;&gt;Environmental Assessment&lt;/a&gt; documents and a &lt;a href=&quot;https://www.federalregister.gov/documents/2025/07/03/2025-12326/national-environmental-policy-act#p-784&quot;&gt;Finding of No Significant Impact&lt;/a&gt; are still required, and if other statutes or regulations require a decision document, the FONSI can be retitled to function as a decision document.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Publication of a draft Environmental Impact Statement (EIS)&lt;/li&gt;
-&lt;li&gt;Schedule of Proposed Actions (SOPA)
-&lt;ul&gt;
-&lt;li&gt;Note: Forest Service units may use project webpages to provide updates to the public&lt;/li&gt;
-&lt;li&gt;Cumulative effects analysis
-&lt;ul&gt;
-&lt;li&gt;Instead, effects must be “reasonably foreseeable and have a reasonably close causal relationship to the proposed action or alternatives”.&lt;/li&gt;
-&lt;li&gt;This does not remove the requirement for cumulative effects from other laws, only NEPA. So, for example, we may still be required to do cumulative effects via ESA and we are being encouraged to consolidate documentation where it makes sense to do, so it may be that little changes here in reality.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;EAs and EISs must now contain certifying statements saying they were completed within the statutory timeframes (one and two years, respectively).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;notes&quot;&gt;Notes:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Cumulative Effects for ESA are not the same as NEPA. They generally just cover non-federal reasonably certain to occur actions. The thought being is that all Federal Actions would have already had consultation.
-&lt;ul&gt;
-&lt;li&gt;NEPA Cumulative Effects: &amp;quot;&lt;em&gt;The impact on the environment which results from the incremental impact of the action when added to other past, present, and reasonably foreseeable future actions regardless of what agency (Federal or non-federal) or person undertakes such other actions 40 CFR §1508.7.&lt;/em&gt;&amp;quot;&lt;/li&gt;
-&lt;li&gt;ESA Cumulative Effects: &amp;quot;&lt;em&gt;Cumulative effects are those effects of future State or private activities, not involving Federal activities that are reasonably certain to occur within the action area of the Federal action subject to consultation(§402.02)&lt;/em&gt;&amp;quot;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Lynx Lau Analysis</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/lau_analysis/" />
-    <updated>2025-07-03T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/lau_analysis/</id>
-    <content type="html">&lt;p&gt;The San Juan National Forest just redrew it’s Lynx Analysis Units to
-align with newly proposed critical habitat by the Fish and Wildlife
-Service and new habitat mapping by Squires et al. (2024). Here is a
-short analysis of the new mapping compared to the old mapping.&lt;/p&gt;
-&lt;h2 id=&quot;new-laus-with-squires-et-al-habitat-mapping&quot;&gt;New LAUs with Squires et. al. Habitat Mapping&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;lau&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Unlikely&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Likely&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Core&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;perc_unlikely&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Anvil Mountain&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18983.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22577.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;12792.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.35&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Bear Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;36013.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2715.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Black Mesa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;21819.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;10322.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;3.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Chalk Mountain&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;34024.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;4992.3&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.87&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;East Dolores River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;30085.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;East Fork San Juan River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;48709.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;14670.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;92.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.77&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engineer&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13941.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11059.2&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;10778.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.39&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Flat Top&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;5309.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18588.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11571.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.15&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Fourmile-turkey&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;36689.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;6743.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.84&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Junction Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;20253.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;234.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lizard Head&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18759.4&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18627.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1135.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.49&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lower Hermosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;29676.3&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2053.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lower Pine River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;19762.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1775.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.92&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Mancos&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22556.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;24.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Missionary - Florida&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;51449.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2373.4&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.96&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Needles&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;29469.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;25342.3&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;8337.1&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.47&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Pagosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;30487.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1305.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.96&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Piedra River Headwaters&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;36988.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18097.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;882.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.66&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Rico&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;20592.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;19314.5&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;373.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.51&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Rio Blanco&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;43585.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;6486.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;49.8&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.87&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Upper Hermosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13631.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;20730.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;3230.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.36&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Upper Pine River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;29751.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22897.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;53.4&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.56&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Vallecito Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;40301.4&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;16314.9&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;8130.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.62&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Weminuche&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;39262.4&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;4031.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.91&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;West Fork San Juan River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;28801.0&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13528.7&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;252.6&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;The vast majority of LAUs on the San Juan have No Lynx habitat as
-modeled by Squires et al. (2024).&lt;/p&gt;
-&lt;h2 id=&quot;old-habitat-mapping&quot;&gt;Old habitat mapping&lt;/h2&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col style=&quot;width: 26%&quot;&gt;
-&lt;col style=&quot;width: 9%&quot;&gt;
-&lt;col style=&quot;width: 9%&quot;&gt;
-&lt;col style=&quot;width: 11%&quot;&gt;
-&lt;col style=&quot;width: 12%&quot;&gt;
-&lt;col style=&quot;width: 21%&quot;&gt;
-&lt;col style=&quot;width: 9%&quot;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;lau&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Alpine&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Suitable&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;Unsuitable&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;total_acres&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;perc_not_hab_all_lau&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;perc_hab&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Anvil Mountain&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;9386.88&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;29670.57&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;3072.35&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;54341.22&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.45&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.91&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Bear Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;665.36&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;25306.29&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;3229.89&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;38815.20&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.35&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.89&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Black Mesa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;311.61&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;21506.15&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1166.77&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;32245.29&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.33&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.95&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Chalk Mountain&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2769.68&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11174.26&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;123.89&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;39168.89&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.71&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;East Dolores River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;348.93&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;21855.14&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;686.93&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;30291.47&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.28&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;East Fork San Juan River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;4304.83&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;32900.78&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1795.41&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;63542.95&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.48&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.95&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engineer&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;16896.05&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11492.87&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;229.70&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;35814.34&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.68&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.98&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Flat Top&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2976.05&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;23694.23&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;74.23&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;35447.73&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.33&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Fourmile-turkey&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;153.89&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;12613.36&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2342.59&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;43601.04&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.71&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.84&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Junction Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1907.01&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11906.77&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;73.65&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;20679.70&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.42&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lizard Head&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;744.73&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;25296.68&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;140.76&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;38501.98&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.34&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lower Hermosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;257.85&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18721.83&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;3344.34&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;32596.13&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.43&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.85&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Lower Pine River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2414.08&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;10220.07&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;600.56&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;21778.57&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.53&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Mancos&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;397.38&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;17030.68&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;201.26&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22756.82&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.25&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.99&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Missionary - Florida&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;10557.85&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;24308.03&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2632.14&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;54212.26&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.55&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.90&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Needles&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;23673.24&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22622.43&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;649.32&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;63089.56&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.64&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Pagosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13.31&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;32372.85&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;NA&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Piedra River Headwaters&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;7672.97&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;30176.07&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1797.68&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;56025.05&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.46&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.94&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Rico&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1570.95&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;28365.84&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;74.14&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;40253.45&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.30&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.00&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Rio Blanco&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2159.33&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;19564.50&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;463.21&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;50307.66&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.61&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.98&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Upper Hermosa&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;785.48&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;28984.30&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2108.82&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;37579.71&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.23&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Upper Pine River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13444.28&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;29076.66&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;903.55&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;52797.98&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.45&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.97&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Vallecito Creek&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;20109.49&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22336.65&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1792.23&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;64844.28&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.66&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.93&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Weminuche&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;4825.45&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;27323.53&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2916.70&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;43353.35&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.37&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.90&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;West Fork San Juan River&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;7586.69&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;9859.31&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;17633.77&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;42701.59&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.77&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.36&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-&lt;div id=&quot;refs&quot; class=&quot;references csl-bib-body hanging-indent&quot; entry-spacing=&quot;0&quot;&gt;
-&lt;div id=&quot;ref-squiresAnthropogenicallyProtectedNaturally2024&quot; class=&quot;csl-entry&quot;&gt;
-&lt;p&gt;Squires, John R., Lucretia E. Olson, Jacob S. Ivan, Peter M. McDonald,
-and Joseph D. Holbrook. 2024. “Anthropogenically Protected but Naturally
-Disturbed: A Specialist Carnivore at Its Southern Range Periphery.”
-&lt;a href=&quot;https://doi.org/10.1007/s10531-024-02978-8&quot;&gt;https://doi.org/10.1007/s10531-024-02978-8&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Trump Admin Executive Orders Notes</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/esa_executive_orders_20250702/" />
-    <updated>2025-07-02T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/esa_executive_orders_20250702/</id>
-    <content type="html">&lt;h2 id=&quot;the-eos&quot;&gt;The EOs&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.federalregister.gov/documents/2025/01/29/2025-02003/declaring-a-national-energy-emergency&quot;&gt;Executive Order 14146 Declaring a National Energy Emergency&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Convening of the God Squad Quarterly&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.federalregister.gov/documents/2025/03/06/2025-03695/immediate-expansion-of-american-timber-production&quot;&gt;Executive Order 14225 Immediate Expansion of American Timber Production&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;Can use emergency consultation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.usda.gov/sites/default/files/documents/sm-1078-006.pdf&quot;&gt;Secretarial Memo 1078-006 Increasing Timber Production and Designating an Emergency Situation on National Forest Sytem Lands&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;if half of project is within this designated area&lt;/li&gt;
-&lt;li&gt;Should use Emergency Consultation to comply with ESA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Associate Chief&#39;s Memo: Implementation of Secretarial Memo 1078-006&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;some-random-notes&quot;&gt;Some Random Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;You can use emergency consultation for timber and energy, with the exception of wind and solar.&lt;/li&gt;
-&lt;li&gt;EOs have &amp;quot;thou shalt&amp;quot;.&lt;/li&gt;
-&lt;li&gt;What is an emergency: typically those are not predictable events. Timber sales under the current EOs are &amp;quot;Emergencies&amp;quot;.&lt;/li&gt;
-&lt;li&gt;Emergency consultations are not exemptions from ESA.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;the-gist&quot;&gt;The Gist&lt;/h2&gt;
-&lt;p&gt;The most important part of this training was that line officers need to decide if they want to use emergency consultation or not, but that the administration and managers will be monitoring how many Emergency Consultations that we use.&lt;/p&gt;
-&lt;p&gt;Also, that emergency consultations are not exemptions from consultation and that the consultations will need to be done at some point.&lt;/p&gt;
-&lt;h2 id=&quot;resources&quot;&gt;Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://usdagcc.sharepoint.com/sites/fs-wo-tess/SitePages/Executive-Orders-&amp;amp;-ESA.aspx?csf=1&amp;amp;web=1&amp;amp;e=deusRk&amp;amp;CID=89b42028-f1e7-418f-b6f9-496beeef59cc&amp;amp;xsdata=MDV8MDJ8fDcyMGVlMjA4OWVlODQ2Y2JmMDJlMDhkZGI5OWJhZTQyfGVkNWIzNmU3MDFlZTRlYmM4NjdlZTAzY2ZhMGQ0Njk3fDB8MHw2Mzg4NzA4MDA0NTExNzAzNTB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbTFsWlhScGJtZGZUV3BGTTA1NlJteGFWMUYwVFhwRmVrMXBNREJaVjFKdFRGZEthMXBxUlhSYWFsRXlUVWRWZWs5WFdUVk9WRkY0UUhSb2NtVmhaQzUyTWk5dFpYTnpZV2RsY3k4eE56VXhORGd6TWpRME1EQTV8ZTA5MzhjN2E0ZWI0NGFmMWYwMmUwOGRkYjk5YmFlNDJ8NWVlNGFiYTY1ZjJlNDk1OGE5YjNhOTc1ZmIwZWM0MmI%3D&amp;amp;sdata=Y0NBUUxHZUVzbktuOFRycHVXd3pSZVB2WU0rYmM4dEhUY3Q5ZzlxL3BvST0%3D&amp;amp;ovuser=ed5b36e7-01ee-4ebc-867e-e03cfa0d4697%2CMichael.Schmidt4%40usda.gov&amp;amp;OR=Teams-HL&amp;amp;CT=1751483266987&amp;amp;clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA2MDIwNjYxNiJ9&quot;&gt;Sharepoint on EOs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>FS Veg vs Landfire, and FIA excercise.</title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/landfire_vs_fs_veg/" />
-    <updated>2025-07-01T00:00:00Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/landfire_vs_fs_veg/</id>
-    <content type="html">&lt;p&gt;The Forest Service developed a polygon based system called FSVeg. It is
-an amazing product. But it relies heavily on by-hand interpretation of
-aerial imagery. Raster based products that are remotely sensed with
-computer models have since been developed such and LandFire. A debate
-about what to use has occured on the San Juan National Forest. I’ve been
-a proponent of LandFire. But many are skepticle. Almost all current
-products rely on FSVeg.&lt;/p&gt;
-&lt;p&gt;This grey paper will use FIA data to evaluate both FSVeg and Landfire
-for species occurrence and cover metrics.&lt;/p&gt;
-&lt;h2 id=&quot;is-basal-area-correlated-to-canopy-cover&quot;&gt;Is basal area correlated to canopy cover&lt;/h2&gt;
-&lt;p&gt;Here we look at if canopy cover of FSVeg, NLCD and Landfire correlate to
-FIA basal area. In short they really don’t. Basal area probably isn’t a
-great metric to test against canopy cover.&lt;/p&gt;
-&lt;p&gt;It is interesting to see that the canopy cover metrics do correlate to
-one another a bit and it is good to see that landfire and nlcd correlate
-to one another.&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;fia_ba&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;fs_veg_cc&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;nlcd_cc&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;lf_cc_avg&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;fia_ba&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.1998669&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.1739695&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.2600609&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;fs_veg_cc&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.1998669&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.4927437&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.4724324&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;nlcd_cc&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.1739695&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.4927437&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.6932432&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;lf_cc_avg&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.2600609&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.4724324&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.6932432&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.0000000&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&quot;dominant-forest-type&quot;&gt;Dominant Forest Type&lt;/h2&gt;
-&lt;p&gt;Here we check the tree species with the greatest basal area in FIA to
-see if the dominant veg type matches LOCAL_TYPE in FS_VEG and EVT_GP_N
-in Landfire. Honestly I’m fairly surprised at how well these match given
-that the FIA points are just points and both FSVeg and LandFire data are
-averages of larger areas.&lt;/p&gt;
-&lt;table&gt;
-&lt;colgroup&gt;
-&lt;col style=&quot;width: 9%&quot;&gt;
-&lt;col style=&quot;width: 20%&quot;&gt;
-&lt;col style=&quot;width: 22%&quot;&gt;
-&lt;col style=&quot;width: 46%&quot;&gt;
-&lt;/colgroup&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;fia_ba&lt;/th&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;fia_cn&lt;/th&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;fsveg&lt;/th&gt;
-&lt;th style=&quot;text-align: left;&quot;&gt;lf_evg_gp&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.9799111&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Gambel oak&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;8.0855005&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;blue spruce&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Riparian&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Western Riparian Woodland and
-Shrubland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;15.9852922&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;13.4109497&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen w Conifer&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
-Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;17.1202696&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Warm-dry Mixed Conifer&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
-Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;22.1380587&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
-Savanna&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;10.6879856&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Cool-moist Mixed Conifer&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
-Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;4.6307187&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;corkbark fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;9.2389124&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;quaking aspen&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen w Conifer&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen-Mixed Conifer Forest and
-Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;21.1652287&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Pinyon-juniper&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;15.3320666&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;quaking aspen&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;9.2698911&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Aspen Forest, Woodland, and Parkland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.3798166&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;corkbark fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;1.8044559&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Utah juniper&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Pinyon-juniper&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
-Savanna&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;16.5336919&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Engelmann spruce&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;12.7657960&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;subalpine fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Mountain Shrublands&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-Fir Forest and Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;18.2253046&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
-Savanna&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;0.4320113&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Rocky Mountain juniper&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
-Savanna&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11.5877320&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Ponderosa Pine Forest, Woodland and
-Savanna&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;11.3211405&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;ponderosa pine&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Spruce-fir&lt;/td&gt;
-&lt;td style=&quot;text-align: left;&quot;&gt;Douglas-fir-Grand Fir-White Fir Forest and
-Woodland&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;I think this needs further investigation but for now I have to say I’m
-at least a little more supportive of FSVeg. I’m not sure if I want to
-use it but I’m at least a bit more supportive of it than I was prior to
-these checks.&lt;/p&gt;
 </content>
   </entry>
 </feed>

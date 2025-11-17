@@ -3,28 +3,177 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;Ecology&#39;</title>
+		<title>Columbine Wildlife Notes</title>
 		<meta name="description" content="These are Mike Schmidt&#39;s notes for the Columbine Ranger District.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Columbine Wildlife Notes">
 		
-		<style>.postlist { counter-reset: start-from 2 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
 
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.message-box ol {
-	margin-top: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
-	}
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }
 /* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
@@ -359,24 +508,25 @@ header {
 
 		<main id="skip">
 			<heading-anchors>
-				<!-- Delete this block, which will also remove the component CSS from the bundle -->
+				
+<h1></h1>
 
-<!-- Stop deleting -->
+<ul class="post-metadata">
+	<li><time datetime="2025-11-17">17 November 2025</time></li>
+</ul>
 
-<h1 id="tagged-ecology">Tagged “Ecology”</h1>
+<h1 id="term-overview">Term Overview</h1>
+<p>The primary goals for the term were to survey timber sales for raptor nests, complete annual aberts surveys, and map sensitive species habitat and distribution around project areas.</p>
+<h2 id="raptor-surveys">Raptor Surveys</h2>
+<p>We surveyed two ponderosa pine forest timber sale areas to ensure no nests would be disrupted.</p>
+<h3 id="junction-creek">Junction Creek</h3>
+<p>Over several weeks we surveyed 22 timber units, performing broadcast acoustic surveys at 179 survey points. Although no nests were found, several raptors were observed including a peregrine falcon (known nest on falls creek cliff face), a juvenile golden eagle, several coopers hawks, and many red tailed hawks.</p>
+<h3 id="aberts-squirrel-survey">Abert's Squirrel Survey</h3>
+<p>Over several visits inturrupted by hail and lightning storms, we completed an annual Abert's survey at Dry Fork.</p>
 
 
-
-<ol reversed="" class="postlist">
-	<li class="postlist-item">
-		<a href="/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/" class="postlist-link">Notes on the Ponderosa Pine Ecosystem</a>
-		<time class="postlist-date" datetime="2025-08-26">August 2025</time>
-	</li>
-</ol>
-
-
-<p>See <a href="/columbine_wildlife_notes/tags/">all tags</a>.</p>
-
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/columbine_wildlife_notes/blog/2025/2025_wit_reporting/">2025 WIT Reporting</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -385,7 +535,7 @@ header {
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em></p>
 		</footer>
 
-		<!-- This page `/tags/ecology/` was built on 2025-11-17T23:47:34.944Z -->
+		<!-- This page `/blog/makenna_seasonal_summary/` was built on 2025-11-17T23:47:34.810Z -->
 		<script type="module" src="/columbine_wildlife_notes/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
