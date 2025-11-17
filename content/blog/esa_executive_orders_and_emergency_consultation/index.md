@@ -1,6 +1,7 @@
 ---
-title: Trump Admin Executive Orders Notes
+title: Trump Admin Executive Orders and Emergency Consultation Running Notes
 date: 2025-07-02
+updated: [2025-09-30]
 tags: [Trumps EOs, ESA]
 ---
 
@@ -28,6 +29,15 @@ The most important part of this training was that line officers need to decide i
 
 Also, that emergency consultations are not exemptions from consultation and that the consultations will need to be done at some point.
 
+## Emergency Consultation
+
+- ESA does not mention consultation, but guidance documents do mention consultation.
+- "Formal consultation shall be initiated as soon as practible after the emergency is under control" 402.05.b
+- We may be liable for take if we use emergency consultation because there is no coverage under emergency consultation for take. So if take were to occur, the line officer be liable.
+- 7.a.1 of the act could be used to hold us accountable if we damage to much habitat.
+  - Agencies must utilize their existing authorities and programs in ways that benefit listed species.
+  - It provides a broad, affirmative directive for all federal agencies to take action for species conservation.
+
 ## Resources
 
-- [Sharepoint on EOs](https://usdagcc.sharepoint.com/sites/fs-wo-tess/SitePages/Executive-Orders-&-ESA.aspx?csf=1&web=1&e=deusRk&CID=89b42028-f1e7-418f-b6f9-496beeef59cc&xsdata=MDV8MDJ8fDcyMGVlMjA4OWVlODQ2Y2JmMDJlMDhkZGI5OWJhZTQyfGVkNWIzNmU3MDFlZTRlYmM4NjdlZTAzY2ZhMGQ0Njk3fDB8MHw2Mzg4NzA4MDA0NTExNzAzNTB8VW5rbm93bnxWR1ZoYlhOVFpXTjFjbWwwZVZObGNuWnBZMlY4ZXlKV0lqb2lNQzR3TGpBd01EQWlMQ0pRSWpvaVYybHVNeklpTENKQlRpSTZJazkwYUdWeUlpd2lWMVFpT2pFeGZRPT18MXxMMk5vWVhSekx6RTVPbTFsWlhScGJtZGZUV3BGTTA1NlJteGFWMUYwVFhwRmVrMXBNREJaVjFKdFRGZEthMXBxUlhSYWFsRXlUVWRWZWs5WFdUVk9WRkY0UUhSb2NtVmhaQzUyTWk5dFpYTnpZV2RsY3k4eE56VXhORGd6TWpRME1EQTV8ZTA5MzhjN2E0ZWI0NGFmMWYwMmUwOGRkYjk5YmFlNDJ8NWVlNGFiYTY1ZjJlNDk1OGE5YjNhOTc1ZmIwZWM0MmI%3D&sdata=Y0NBUUxHZUVzbktuOFRycHVXd3pSZVB2WU0rYmM4dEhUY3Q5ZzlxL3BvST0%3D&ovuser=ed5b36e7-01ee-4ebc-867e-e03cfa0d4697%2CMichael.Schmidt4%40usda.gov&OR=Teams-HL&CT=1751483266987&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiI0OS8yNTA2MDIwNjYxNiJ9)
+- [Emergency Consultation Guidance from Internal Sharepoint](/internal_usfs_guidance_emergency_consultation.pdf)
