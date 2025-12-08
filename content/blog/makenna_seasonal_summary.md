@@ -1,6 +1,6 @@
 ---
-Title: Makenna Seasonal Term Accomplishments
-Date: 2025-10-22
+title: Makenna Seasonal Term Accomplishments
+date: 2025-10-22
 ---
 
 # Term Overview

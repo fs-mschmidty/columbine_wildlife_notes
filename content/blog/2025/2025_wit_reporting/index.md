@@ -1,7 +1,8 @@
 ---
 title: 2025 WIT Reporting
 date: 2025-11-14T00:00:00.000Z
-tags: []
+tags:
+  - Annual Reporting
 format:
   commonmark:
     variant: +yaml_metadata_block
@@ -268,28 +269,80 @@ FACTS yet and I was not able to pull into this report.
 ## Weed Treatments
 
 <table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 17%" />
+<col style="width: 8%" />
+<col style="width: 28%" />
+<col style="width: 10%" />
+<col style="width: 9%" />
+</colgroup>
 <thead>
 <tr>
-<th style="text-align: right;">FISCAL_YEAR_COMPLETED</th>
-<th style="text-align: right;">n</th>
+<th style="text-align: left;">SPECIES</th>
+<th style="text-align: left;">EQUIPMENT</th>
+<th style="text-align: left;">FUND_CODES</th>
+<th style="text-align: left;">NEPA_DOC_NAME</th>
+<th style="text-align: right;">n_treatments</th>
+<th style="text-align: right;">total_acres</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: right;">2021</td>
-<td style="text-align: right;">46</td>
+<td style="text-align: left;">CANU4 - nodding plumeless thistle</td>
+<td style="text-align: left;">Backpack sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">17.9370</td>
 </tr>
 <tr>
-<td style="text-align: right;">2022</td>
-<td style="text-align: right;">31</td>
+<td style="text-align: left;">CANU4 - nodding plumeless thistle</td>
+<td style="text-align: left;">Hand sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">29.2774</td>
 </tr>
 <tr>
-<td style="text-align: right;">2023</td>
-<td style="text-align: right;">62</td>
+<td style="text-align: left;">CANU4 - nodding plumeless thistle</td>
+<td style="text-align: left;">Mobile ground sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">4.3991</td>
 </tr>
 <tr>
-<td style="text-align: right;">2024</td>
-<td style="text-align: right;">51</td>
+<td style="text-align: left;">CIAR4 - Canada thistle</td>
+<td style="text-align: left;">Backpack sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.1056</td>
+</tr>
+<tr>
+<td style="text-align: left;">CIAR4 - Canada thistle</td>
+<td style="text-align: left;">Hand sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2.1586</td>
+</tr>
+<tr>
+<td style="text-align: left;">CIVU - bull thistle</td>
+<td style="text-align: left;">Backpack sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3.6354</td>
+</tr>
+<tr>
+<td style="text-align: left;">LIDAD - Dalmatian toadflax</td>
+<td style="text-align: left;">Backpack sprayer</td>
+<td style="text-align: left;">NFVW</td>
+<td style="text-align: left;">(PALS)NOXIOUS PLANT CONTROL PROGRAM</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.5329</td>
 </tr>
 </tbody>
 </table>
