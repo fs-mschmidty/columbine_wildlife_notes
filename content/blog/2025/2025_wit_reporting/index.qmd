@@ -1,7 +1,7 @@
 ---
 title: 2025 WIT Reporting
 date: 2025-11-14
-tags: []
+tags: ["Annual Reporting"]
 format:
   commonmark:
     variant: +yaml_metadata_block
@@ -107,29 +107,46 @@ We have one more treatment, Turkey Springs, that has not been added to FACTS yet
 ## Weed Treatments
 
 ```{r}
-## library(arcgisbinding)
-## arc.check_product()
-##
-## nox_weeds_treat<-arc.open("T:\\FS\\Reference\\GIS\\r02_sjnf\\LayerFile\\SanJuan_Library\\NoxiousWeeds\\TESP_InvasiveSpecies_NRM\\Invasive Species Accomplished Activities_RSW.lyr")  |>
-## 	arc.select() |>
-## 	arc.data2sf()
-##
-## sjnf_nox_weeds<-nox_weeds_treat |>
-## 	st_make_valid() |>
-## 	st_transform(st_crs(sjnf_bd)) |>
-## 	st_intersection(sjnf_bd)  |>
-## 	filter(FISCAL_YEAR_ACCOMPLISHED>2020)
-##
-##
-## st_write(sjnf_nox_weeds,"content/blog/2025/2025_wit_reporting/cache/nox_weeds_sjnf_bd.gpkg")
+#library(arcgisbinding)
+#arc.check_product()
+#
+#nox_weeds_treat<-arc.open("T:\\FS\\Reference\\GIS\\r02_sjnf\\LayerFile\\SanJuan_Library\\NoxiousWeeds\\TESP_InvasiveSpecies_NRM\\Invasive Species Accomplished Activities_RSW.lyr")  |>
+#	arc.select() |>
+#	arc.data2sf()
+#
+#sjnf_nox_weeds<-nox_weeds_treat |>
+#	st_make_valid() |>
+#	st_transform(st_crs(sjnf_bd)) |>
+#	st_intersection(sjnf_bd)  |>
+#	filter(FISCAL_YEAR_ACCOMPLISHED>2020)
+#
+#
+#st_write(sjnf_nox_weeds,"content/blog/2025/2025_wit_reporting/cache/nox_weeds_sjnf_bd.gpkg", append=FALSE)
 
-# sjnf_nox_weeds<-st_read("content/blog/2025/2025_wit_reporting/cache/nox_weeds_sjnf_bd.gpkg")
+# sjnf_nox_weeds <- st_read(
+#   "content/blog/2025/2025_wit_reporting/cache/nox_weeds_sjnf_bd.gpkg"
+# ) |>
+# 	filter(FISCAL_YEAR_COMPLETED==2025)
 
-sjnf_nox_weeds <- st_read("./cache/nox_weeds_sjnf_bd.gpkg", quiet = T)
+sjnf_nox_weeds <- st_read("./cache/nox_weeds_sjnf_bd.gpkg", quiet = T) |>
+  filter(FISCAL_YEAR_COMPLETED == 2025)
 
-sjnf_nox_weeds |>
+crd_completed <- sjnf_nox_weeds |>
+  st_intersection(st_union(crd_bd))
+
+
+crd_summary <- crd_completed |>
   st_drop_geometry() |>
-  count(FISCAL_YEAR_COMPLETED)
+  as_tibble() |>
+  group_by(SPECIES, EQUIPMENT, FUND_CODES, NEPA_DOC_NAME) |>
+  summarize(n_treatments = n(), total_acres = sum(AREA_AC))
+
+# write_csv(
+#   crd_summary,
+#   "content/blog/2025/2025_wit_reporting/cache/crd_weeds_treat.csv"
+# )
+
+crd_summary
 ```
 
 

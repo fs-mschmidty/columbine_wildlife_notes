@@ -9,7 +9,7 @@ execute:
   echo: false
   message: false
   warning: false
-  class-output: 'r'
+  class-output: "r"
 bibliography: references.bib
 ---
 
@@ -22,6 +22,7 @@ library(tidyverse)
 The San Juan National Forest just redrew it's Lynx Analysis Units to align with newly proposed critical habitat by the Fish and Wildlife Service and new habitat mapping by @squiresAnthropogenicallyProtectedNaturally2024. Here is a short analysis of the new mapping compared to the old mapping.
 
 ## New LAUs with Squires et. al. Habitat Mapping
+
 ```{r}
 lau <- st_read(
   "T:\\FS\\Reference\\GeoTool\\r02_sjnf\\Toolbox\\Lynx\\LynxHabitat.gdb",
@@ -29,7 +30,6 @@ lau <- st_read(
   quiet = T
 )
 ```
-
 
 ```{r}
 #| cache: true
@@ -58,64 +58,77 @@ freq_unlikely <- hab_cat_per_lau |>
     Core = (Core * 120 * 120 * 0.000247105) |> round(1)
   )
 
+n_lau <- freq_unlikely |>
+  nrow()
+
 freq_unlikely |>
   knitr::kable()
 ```
 
+```{r}
+n_unlikely <- freq_unlikely |>
+  filter(perc_unlikely > 0.75) |>
+  nrow()
 
+no_core <- freq_unlikely |>
+  filter(Core == 0) |>
+  nrow()
 
-The vast majority of LAUs on the San Juan have No Lynx habitat as modeled by @squiresAnthropogenicallyProtectedNaturally2024.
+no_hab <- freq_unlikely |>
+  filter(perc_unlikely == 1) |>
+  nrow()
+```
+
+There are `r n_lau` LAUs proposed on the San Juan Naitonal Forest, the majority of LAUs (n=`r n_unlikely`, `r n_unlikely/n_lau*100|>round(2)`%) on the San Juan are made up of less than 25% core and likely as modeled by @squiresAnthropogenicallyProtectedNaturally2024. Eleven of the LAUs have no core habitat and two LAUs have no lynx habitat at all.
 
 ## Old habitat mapping
+
 ```{r}
 #| cache: true
 
-lynx_hab_old <- st_read(
-  "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\ColumbineRangerDistrict\\LynxHabitat_Checkout\\lynx_habitat.shp",
-  quiet = T
-)
-lynx_hab_old_suitable <- lynx_hab_old |>
-  janitor::clean_names() |>
-  mutate(
-    habitat_cat = case_when(
-      lynxhabita %in% c("PU", "SU") ~ "Unsuitable",
-      lynxhabita %in% c("PS", "SS") ~ "Suitable",
-      lynxhabita == "ALP" ~ "Alpine"
-    )
-  )
-
-old_lynx_hab_cl <- select(lynx_hab_old_suitable, habitat_cat) |>
-  count(habitat_cat)
-
-lau_total_acres <- lau |>
-  janitor::clean_names() |>
-  select(lau, total_acres = acres) |>
-  st_drop_geometry()
-
-lau_old_hab_int <- lau |>
-  janitor::clean_names() |>
-  st_intersection(old_lynx_hab_cl)
-
-lau_old_hab_int %>%
-  mutate(acres = st_area(.) |> as.numeric() * 0.000247105) |>
-  as_tibble() |>
-  group_by(lau, habitat_cat) |>
-  summarize(acres = sum(acres)) |>
-  ungroup() |>
-  pivot_wider(names_from = habitat_cat, values_from = acres) |>
-  left_join(lau_total_acres, by = "lau") |>
-  mutate(
-    perc_not_hab_all_lau = (total_acres - Suitable) / total_acres,
-    perc_hab = Suitable / (Suitable + Unsuitable)
-  ) |>
-  mutate_if(is.numeric, round, 2)
+# lynx_hab_old <- st_read(
+#   "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\ColumbineRangerDistrict\\LynxHabitat_Checkout\\lynx_habitat.shp",
+#   quiet = T
+# )
+# lynx_hab_old_suitable <- lynx_hab_old |>
+#   janitor::clean_names() |>
+#   mutate(
+#     habitat_cat = case_when(
+#       lynxhabita %in% c("PU", "SU") ~ "Unsuitable",
+#       lynxhabita %in% c("PS", "SS") ~ "Suitable",
+#       lynxhabita == "ALP" ~ "Alpine"
+#     )
+#   )
+#
+# old_lynx_hab_cl <- select(lynx_hab_old_suitable, habitat_cat) |>
+#   count(habitat_cat)
+#
+# lau_total_acres <- lau |>
+#   janitor::clean_names() |>
+#   select(lau, total_acres = acres) |>
+#   st_drop_geometry()
+#
+# lau_old_hab_int <- lau |>
+#   janitor::clean_names() |>
+#   st_intersection(old_lynx_hab_cl)
+#
+# lau_old_hab_int %>%
+#   mutate(acres = st_area(.) |> as.numeric() * 0.000247105) |>
+#   as_tibble() |>
+#   group_by(lau, habitat_cat) |>
+#   summarize(acres = sum(acres)) |>
+#   ungroup() |>
+#   pivot_wider(names_from = habitat_cat, values_from = acres) |>
+#   left_join(lau_total_acres, by = "lau") |>
+#   mutate(
+#     perc_not_hab_all_lau = (total_acres - Suitable) / total_acres,
+#     perc_hab = Suitable / (Suitable + Unsuitable)
+#   ) |>
+#   mutate_if(is.numeric, round, 2)
 ```
 
-
 ```{r}
-fs_veg_dsn <- "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\fs_veg_exports\\FSVegSpatial.gdb"
+# fs_veg_dsn <- "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\fs_veg_exports\\FSVegSpatial.gdb"
 ```
 
 ## References
-
-
