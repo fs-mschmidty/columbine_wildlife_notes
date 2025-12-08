@@ -5,26 +5,11 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/columbine_wildlife_notes/feed/feed.xml" rel="self" />
   <link href="https://example.com/columbine_wildlife_notes/" />
-  <updated>2025-11-17T23:45:33Z</updated>
+  <updated>2025-11-14T00:00:00Z</updated>
   <id>https://example.com/columbine_wildlife_notes/</id>
   <author>
     <name>Michael Schmidt</name>
   </author>
-  <entry>
-    <title></title>
-    <link href="https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/" />
-    <updated>2025-11-17T23:45:33Z</updated>
-    <id>https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/</id>
-    <content type="html">&lt;h1 id=&quot;term-overview&quot;&gt;Term Overview&lt;/h1&gt;
-&lt;p&gt;The primary goals for the term were to survey timber sales for raptor nests, complete annual aberts surveys, and map sensitive species habitat and distribution around project areas.&lt;/p&gt;
-&lt;h2 id=&quot;raptor-surveys&quot;&gt;Raptor Surveys&lt;/h2&gt;
-&lt;p&gt;We surveyed two ponderosa pine forest timber sale areas to ensure no nests would be disrupted.&lt;/p&gt;
-&lt;h3 id=&quot;junction-creek&quot;&gt;Junction Creek&lt;/h3&gt;
-&lt;p&gt;Over several weeks we surveyed 22 timber units, performing broadcast acoustic surveys at 179 survey points. Although no nests were found, several raptors were observed including a peregrine falcon (known nest on falls creek cliff face), a juvenile golden eagle, several coopers hawks, and many red tailed hawks.&lt;/p&gt;
-&lt;h3 id=&quot;aberts-squirrel-survey&quot;&gt;Abert&#39;s Squirrel Survey&lt;/h3&gt;
-&lt;p&gt;Over several visits inturrupted by hail and lightning storms, we completed an annual Abert&#39;s survey at Dry Fork.&lt;/p&gt;
-</content>
-  </entry>
   <entry>
     <title>2025 WIT Reporting</title>
     <link href="https://example.com/columbine_wildlife_notes/blog/2025/2025_wit_reporting/" />
@@ -274,28 +259,80 @@ maintain habitat for wildlife and therefore are not counted.&lt;/p&gt;
 FACTS yet and I was not able to pull into this report.&lt;/p&gt;
 &lt;h2 id=&quot;weed-treatments&quot;&gt;Weed Treatments&lt;/h2&gt;
 &lt;table&gt;
+&lt;colgroup&gt;
+&lt;col style=&quot;width: 26%&quot;&gt;
+&lt;col style=&quot;width: 17%&quot;&gt;
+&lt;col style=&quot;width: 8%&quot;&gt;
+&lt;col style=&quot;width: 28%&quot;&gt;
+&lt;col style=&quot;width: 10%&quot;&gt;
+&lt;col style=&quot;width: 9%&quot;&gt;
+&lt;/colgroup&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;FISCAL_YEAR_COMPLETED&lt;/th&gt;
-&lt;th style=&quot;text-align: right;&quot;&gt;n&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;SPECIES&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;EQUIPMENT&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;FUND_CODES&lt;/th&gt;
+&lt;th style=&quot;text-align: left;&quot;&gt;NEPA_DOC_NAME&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;n_treatments&lt;/th&gt;
+&lt;th style=&quot;text-align: right;&quot;&gt;total_acres&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2021&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;46&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CANU4 - nodding plumeless thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Backpack sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;17&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;17.9370&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2022&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;31&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CANU4 - nodding plumeless thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Hand sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;28&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;29.2774&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2023&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;62&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CANU4 - nodding plumeless thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Mobile ground sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;4.3991&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;2024&lt;/td&gt;
-&lt;td style=&quot;text-align: right;&quot;&gt;51&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CIAR4 - Canada thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Backpack sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.1056&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CIAR4 - Canada thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Hand sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;7&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2.1586&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;CIVU - bull thistle&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Backpack sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;2&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;3.6354&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;LIDAD - Dalmatian toadflax&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;Backpack sprayer&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;NFVW&lt;/td&gt;
+&lt;td style=&quot;text-align: left;&quot;&gt;(PALS)NOXIOUS PLANT CONTROL PROGRAM&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;1&lt;/td&gt;
+&lt;td style=&quot;text-align: right;&quot;&gt;0.5329&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -352,6 +389,21 @@ FACTS yet and I was not able to pull into this report.&lt;/p&gt;
 &lt;li&gt;Western Boreal Toad&lt;/li&gt;
 &lt;li&gt;Northern Leopard Frog&lt;/li&gt;
 &lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Makenna Seasonal Term Accomplishments</title>
+    <link href="https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/" />
+    <updated>2025-10-22T00:00:00Z</updated>
+    <id>https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/</id>
+    <content type="html">&lt;h1 id=&quot;term-overview&quot;&gt;Term Overview&lt;/h1&gt;
+&lt;p&gt;The primary goals for the term were to survey timber sales for raptor nests, complete annual aberts surveys, and map sensitive species habitat and distribution around project areas.&lt;/p&gt;
+&lt;h2 id=&quot;raptor-surveys&quot;&gt;Raptor Surveys&lt;/h2&gt;
+&lt;p&gt;We surveyed two ponderosa pine forest timber sale areas to ensure no nests would be disrupted.&lt;/p&gt;
+&lt;h3 id=&quot;junction-creek&quot;&gt;Junction Creek&lt;/h3&gt;
+&lt;p&gt;Over several weeks we surveyed 22 timber units, performing broadcast acoustic surveys at 179 survey points. Although no nests were found, several raptors were observed including a peregrine falcon (known nest on falls creek cliff face), a juvenile golden eagle, several coopers hawks, and many red tailed hawks.&lt;/p&gt;
+&lt;h3 id=&quot;aberts-squirrel-survey&quot;&gt;Abert&#39;s Squirrel Survey&lt;/h3&gt;
+&lt;p&gt;Over several visits inturrupted by hail and lightning storms, we completed an annual Abert&#39;s survey at Dry Fork.&lt;/p&gt;
 </content>
   </entry>
   <entry>
@@ -1803,11 +1855,11 @@ Article available on the &lt;a href=&quot;https://research.fs.usda.gov/feis/spec
 &lt;li&gt;80% of historic basal areas &amp;lt; 10 m^2/ha (43.6 ft^2/ac), current is 15% &amp;lt; 10 m^2/ha&lt;/li&gt;
 &lt;li&gt;15% of plots had quadratic mean diameter (QMD) &amp;gt; 35cm, now none did.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a20grr9s4cv&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-battagliaChangesForestStructure2018&quot; class=&quot;reference&quot; id=&quot;ref-bib-battagliaChangesForestStructure2018-a20grr9s4cv&quot;&gt;Battaglia et al., 2018&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a27k72q3uc9&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-battagliaChangesForestStructure2018&quot; class=&quot;reference&quot; id=&quot;ref-bib-battagliaChangesForestStructure2018-a27k72q3uc9&quot;&gt;Battaglia et al., 2018&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;restoring-composition-and-structure-in-southwestern-frequent-fire-forests-a-science-based-framework-for-improving-ecosystem-resiliancy&quot;&gt;Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliancy.&lt;/h1&gt;
 &lt;p&gt;Citation:
 Reynolds, R. T., Sanchez Meador, A. J., Youtz, J. A., Nicolet, T., Matonis, M. S., Jackson, P. L., DeLorenzo, D. G., &amp;amp; Graves, A. D. (2013). Restoring composition and structure in Southwestern frequent-fire forests: A science-based framework for improving ecosystem resiliency (No. RMRS-GTR-310; p. RMRS-GTR-310). U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RMRS-GTR-310&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a290rj17uij&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-reynoldsRestoringCompositionStructure2013&quot; class=&quot;reference&quot; id=&quot;ref-bib-reynoldsRestoringCompositionStructure2013-a290rj17uij&quot;&gt;Reynolds et al., 2013&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;citations&quot; id=&quot;citation-a1027elqcra&quot;&gt;(&lt;a href=&quot;https://example.com/columbine_wildlife_notes/blog/ponderosa_pine_ecosystem_notes/#bib-reynoldsRestoringCompositionStructure2013&quot; class=&quot;reference&quot; id=&quot;ref-bib-reynoldsRestoringCompositionStructure2013-a1027elqcra&quot;&gt;Reynolds et al., 2013&lt;/a&gt;)&lt;/span&gt;&lt;/p&gt;
 &lt;h1 id=&quot;references&quot;&gt;References&lt;/h1&gt;
 </content>
   </entry>

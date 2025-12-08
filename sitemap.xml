@@ -62,6 +62,11 @@
 	</url>
 	
 	<url>
+		<loc>https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/</loc>
+		<lastmod>2025-10-22</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://example.com/columbine_wildlife_notes/blog/cit_sci/project_overview/</loc>
 		<lastmod>2025-10-26</lastmod>
 	</url>
@@ -78,31 +83,26 @@
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/about/</loc>
-		<lastmod>2025-11-17</lastmod>
+		<lastmod>2025-12-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/blog/</loc>
-		<lastmod>2025-11-17</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://example.com/columbine_wildlife_notes/blog/makenna_seasonal_summary/</loc>
-		<lastmod>2025-11-17</lastmod>
+		<lastmod>2025-12-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/</loc>
-		<lastmod>2025-11-17</lastmod>
+		<lastmod>2025-12-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/tags/</loc>
-		<lastmod>2025-11-17</lastmod>
+		<lastmod>2025-12-08</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://example.com/columbine_wildlife_notes/feed/feed.xml</loc>
-		<lastmod>2025-11-17</lastmod>
+		<lastmod>2025-12-08</lastmod>
 	</url>
 </urlset>
